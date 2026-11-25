@@ -1,0 +1,98 @@
+/* Crumb & Co. Toolkit — component styles used when the Crumb & Co. theme is not active. */
+:root {
+	--ccs-radius-s: 10px;
+	--ccs-radius-m: 18px;
+	--ccs-radius-l: 28px;
+	--ccs-shadow: 0 18px 40px -18px rgba(59, 42, 32, 0.28);
+	--ccs-shadow-lift: 0 26px 60px -26px rgba(59, 42, 32, 0.38);
+	--ccs-cream: var(--wp--preset--color--base, #FBF6EE);
+	--ccs-surface: var(--wp--preset--color--surface, #F4EADB);
+	--ccs-cocoa: var(--wp--preset--color--contrast, #3B2A20);
+	--ccs-muted: var(--wp--preset--color--muted, #6B5546);
+	--ccs-line: var(--wp--preset--color--line, #E6D9C6);
+	--ccs-rasp: var(--wp--preset--color--accent, #B8325A);
+	--ccs-rasp-dark: var(--wp--preset--color--accent-dark, #932446);
+	--ccs-rasp-light: var(--wp--preset--color--accent-light, #F6DCE3);
+	--ccs-sage: var(--wp--preset--color--sage, #7E9C7C);
+	--ccs-sage-dark: var(--wp--preset--color--sage-dark, #4F6B4E);
+	--ccs-sage-light: var(--wp--preset--color--sage-light, #E3EBDD);
+	--ccs-white: #fff;
+	--ccs-focus: 0 0 0 3px var(--ccs-cream), 0 0 0 5px var(--ccs-rasp);
+}
+/* Placeholder note (for editors and honest public labelling) */
+.ccs-placeholder-note {
+	background: #FFF8E7; border: 1px dashed #D9B66C; border-radius: var(--ccs-radius-s);
+	padding: 0.9rem 1.1rem; font-size: 0.95rem; margin-block: 1.25rem;
+}
+.ccs-placeholder-note p { margin: 0; }
+
+
+/* FAQ accordions */
+.ccs-faq { background: var(--ccs-white); border: 1px solid var(--ccs-line) !important; border-radius: var(--ccs-radius-s); padding: 0 !important; margin-block: 0.6rem !important; }
+.ccs-faq summary {
+	cursor: pointer; padding: 1rem 1.25rem; font-weight: 800; list-style: none; display: flex; justify-content: space-between; gap: 1rem; align-items: center;
+}
+.ccs-faq summary::-webkit-details-marker { display: none; }
+.ccs-faq summary::after { content: "+"; font-size: 1.4rem; line-height: 1; color: var(--ccs-rasp); transition: transform 0.2s ease; }
+.ccs-faq[open] summary::after { transform: rotate(45deg); }
+.ccs-faq > p { padding: 0 1.25rem 1.1rem; margin: 0; }
+
+
+/* ---------- Forms (signup, contact, filters) ---------- */
+.ccs-form { display: grid; gap: 0.9rem; }
+.ccs-form label, .ccs-field label { font-weight: 700; display: block; margin-block-end: 0.3rem; }
+.ccs-form input[type="text"], .ccs-form input[type="email"], .ccs-form textarea, .ccs-form select,
+.ccs-filter input[type="search"], .ccs-filter input[type="number"] {
+	width: 100%; padding: 0.8rem 1rem; border-radius: var(--ccs-radius-s); border: 1.5px solid var(--ccs-line);
+	background: var(--ccs-white); color: var(--ccs-cocoa); font: inherit; min-height: 48px;
+}
+.ccs-form input:focus, .ccs-form textarea:focus, .ccs-filter input:focus { border-color: var(--ccs-rasp); outline: none; box-shadow: var(--ccs-focus); }
+.ccs-form__row { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.ccs-form__row > input { flex: 1 1 220px; }
+.ccs-form__consent { display: flex; gap: 0.6rem; align-items: flex-start; font-size: 0.9rem; color: var(--ccs-muted); }
+.ccs-form__consent input { margin-block-start: 0.3rem; width: 1.1rem; height: 1.1rem; accent-color: var(--ccs-rasp); }
+.ccs-form__consent label { font-weight: 400; margin: 0; }
+.ccs-form button, .ccs-filter button { cursor: pointer; border: 0; }
+.ccs-form__hp { position: absolute !important; inset-inline-start: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.ccs-alert { border-radius: var(--ccs-radius-s); padding: 0.9rem 1.1rem; margin-block-end: 1rem; font-weight: 600; }
+.ccs-alert--success { background: var(--ccs-sage-light); border: 1px solid var(--ccs-sage); }
+.ccs-alert--error { background: var(--ccs-rasp-light); border: 1px solid var(--ccs-rasp); }
+.ccs-alert a.wp-element-button { margin-block-start: 0.6rem; display: inline-block; text-decoration: none; }
+.ccs-small { font-size: 0.85rem; color: var(--ccs-muted); }
+
+.ccs-contact { gap: var(--wp--preset--spacing--50); }
+.ccs-contact__aside { background: var(--ccs-surface); border-radius: var(--ccs-radius-m); padding: var(--wp--preset--spacing--40); align-self: flex-start; }
+.ccs-contact__aside h3 { font-size: var(--wp--preset--font-size--large); }
+
+
+.ccs-loop-badge {
+	position: absolute; top: 1.25rem; inset-inline-start: 1.25rem; z-index: 2;
+	background: var(--ccs-cocoa); color: var(--ccs-cream); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase;
+	border-radius: 999px; padding: 0.3rem 0.7rem;
+}
+:lang(ar) .ccs-loop-badge { letter-spacing: 0; font-size: 0.8rem; }
+
+/* Product facts + notice (rendered by the Toolkit plugin) */
+.ccs-facts { display: grid; gap: 0.6rem; margin-block: 1.25rem; padding: 1.1rem 1.25rem; background: var(--ccs-white); border: 1px solid var(--ccs-line); border-radius: var(--ccs-radius-m); }
+.ccs-facts__row { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 0.75rem; font-size: 0.95rem; }
+.ccs-facts__row dt { font-weight: 800; color: var(--ccs-muted); }
+.ccs-facts__row dd { margin: 0; }
+@media (max-width: 480px) { .ccs-facts__row { grid-template-columns: 1fr; gap: 0.1rem; } }
+.ccs-digital-notice {
+	display: flex; gap: 0.9rem; align-items: flex-start; background: var(--ccs-sage-light); border-radius: var(--ccs-radius-m);
+	padding: 1rem 1.2rem; margin-block: 1rem; font-size: 0.95rem; border: 1px solid color-mix(in srgb, var(--ccs-sage) 40%, transparent);
+}
+.ccs-digital-notice__icon { flex: none; width: 36px; height: 36px; border-radius: 50%; background: var(--ccs-white); display: grid; place-items: center; color: var(--ccs-sage-dark); }
+.ccs-digital-notice__icon svg { width: 20px; height: 20px; }
+.ccs-digital-notice strong { display: block; margin-block-end: 0.15rem; }
+.ccs-digital-notice p { margin: 0; }
+.ccs-digital-notice--cart { margin-block: 0 1.5rem; }
+
+
+.ccs-files { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: 0.6rem; }
+.ccs-files li { display: flex; gap: 0.75rem; align-items: center; padding: 0.75rem 1rem; background: var(--ccs-cream); border-radius: var(--ccs-radius-s); }
+.ccs-files li::before { content: ""; width: 28px; height: 34px; flex: none; border-radius: 4px; background: var(--ccs-sage-light) linear-gradient(135deg, transparent 70%, var(--ccs-sage) 70%); }
+.ccs-steps-list { counter-reset: s; list-style: none; padding: 0; display: grid; gap: 0.75rem; }
+.ccs-steps-list li { counter-increment: s; display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); gap: 0.75rem; align-items: start; }
+.ccs-steps-list li::before { content: counter(s); width: 2.25rem; height: 2.25rem; border-radius: 50%; background: var(--ccs-rasp-light); color: var(--ccs-rasp-dark); font-weight: 800; display: grid; place-items: center; }
+

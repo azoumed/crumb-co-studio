@@ -1,0 +1,911 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: crumb-co-toolkit 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: crumb-co-toolkit\n"
+
+msgid "Order Management"
+msgstr ""
+
+msgid "Keep customer orders, pickup dates and payments in one organised place."
+msgstr ""
+
+msgid "Pricing & Costing"
+msgstr ""
+
+msgid "See what each bake really costs you — ingredients, packaging and your time."
+msgstr ""
+
+msgid "Launch & Setup"
+msgstr ""
+
+msgid "The documents and checklists you need to start taking orders with confidence."
+msgstr ""
+
+msgid "Marketing"
+msgstr ""
+
+msgid "Plan what to post and when, around your products and the seasons."
+msgstr ""
+
+msgid "Spreadsheet (XLSX)"
+msgstr ""
+
+msgid "Document (DOCX)"
+msgstr ""
+
+msgid "Bundle (ZIP)"
+msgstr ""
+
+msgid "Home Bakery Order Tracker"
+msgstr ""
+
+msgid "Laptop showing the Home Bakery Order Tracker spreadsheet with order status labels"
+msgstr ""
+
+msgid "Home Bakery Order Tracker (XLSX)"
+msgstr ""
+
+msgid "An editable spreadsheet for recording customer orders, pickup dates, payments and order status — all in one place."
+msgstr ""
+
+msgid "If your orders live in text messages, direct messages and sticky notes, this tracker gives them one home. Each row is an order: who it is for, what they ordered, when they are collecting it, what they have paid and where it is up to."
+msgstr ""
+
+msgid "Drop-down lists keep payment and order statuses consistent, the balance due calculates itself, and a summary tab counts orders by status and adds up what is still to collect."
+msgstr ""
+
+msgid "See upcoming pickups in date order"
+msgstr ""
+
+msgid "Know who has paid a deposit and what is still owed"
+msgstr ""
+
+msgid "Keep allergy, flavour and design notes with each order"
+msgstr ""
+
+msgid "Spot enquiries that still need a reply or confirmation"
+msgstr ""
+
+msgid "Home bakers taking custom orders — cakes, cookies, cupcakes or bread — who want one reliable record instead of scattered messages."
+msgstr ""
+
+msgid "Recording and following customer orders from enquiry to pickup"
+msgstr ""
+
+msgid "Spreadsheet · XLSX"
+msgstr ""
+
+msgid "Microsoft Excel, Google Sheets, LibreOffice Calc"
+msgstr ""
+
+msgid "home-bakery-order-tracker.xlsx — tabs: Start here, Orders, Lists, Summary"
+msgstr ""
+
+msgid "300 pre-formatted order rows with drop-down statuses and automatic balance due"
+msgstr ""
+
+msgid "Three example rows (clearly marked) to delete when you are ready"
+msgstr ""
+
+msgid "Excel: open the downloaded .xlsx file. Google Sheets: upload it to Google Drive, then choose Open with → Google Sheets."
+msgstr ""
+
+msgid "Read the \"Start here\" tab, then delete the three grey example rows on the Orders tab."
+msgstr ""
+
+msgid "Edit the drop-down options on the Lists tab to match how you work."
+msgstr ""
+
+msgid "Set the money columns to your currency using Format → Number."
+msgstr ""
+
+msgid "Can a helper use it too?"
+msgstr ""
+
+msgid "Yes. Upload it to Google Sheets or store it in OneDrive and share it with the people who help you."
+msgstr ""
+
+msgid "How many orders does it hold?"
+msgstr ""
+
+msgid "300 rows are ready to use. You can copy the last row down to add more."
+msgstr ""
+
+msgid "Can I change the statuses?"
+msgstr ""
+
+msgid "Yes. Edit the lists on the Lists tab and the drop-downs update."
+msgstr ""
+
+msgid "Does it send reminders to customers?"
+msgstr ""
+
+msgid "No. It is a spreadsheet for your own records; it does not send messages or connect to other apps."
+msgstr ""
+
+msgid "Cake Pricing Calculator"
+msgstr ""
+
+msgid "Tablet showing the Cake Pricing Calculator with ingredient, packaging and labour sections"
+msgstr ""
+
+msgid "Cake Pricing Calculator (XLSX)"
+msgstr ""
+
+msgid "A spreadsheet template that organises ingredient, packaging and labour costs for each bake, so you can see what it really costs you."
+msgstr ""
+
+msgid "Pricing is personal: it depends on your market, your skills and your goals. What every baker needs first is an accurate cost. This calculator helps you record what you pay for ingredients, work out the cost of the amounts a recipe uses, then add packaging, the time you spend and any overheads you track."
+msgstr ""
+
+msgid "You can test a markup percentage of your choice to see the arithmetic next to your total cost. The calculator does not recommend a price or promise a profit — it gives you clear numbers to make your own decision."
+msgstr ""
+
+msgid "Keep an ingredient library with cost per gram, millilitre or item"
+msgstr ""
+
+msgid "Cost a recipe line by line using drop-down ingredient names"
+msgstr ""
+
+msgid "Include packaging and the time you spend, at an hourly rate you choose"
+msgstr ""
+
+msgid "Duplicate the costing tab for every product you make"
+msgstr ""
+
+msgid "Bakers who want to understand their costs before setting or reviewing prices — whether you are just starting or ingredient prices have changed."
+msgstr ""
+
+msgid "Organising ingredient, packaging and labour costs per product"
+msgstr ""
+
+msgid "cake-pricing-calculator.xlsx — tabs: Start here, Ingredient library, Cake costing"
+msgstr ""
+
+msgid "Room for 100 ingredients and 20 recipe lines per product"
+msgstr ""
+
+msgid "Example figures (clearly marked) to replace with your own"
+msgstr ""
+
+msgid "Open the .xlsx file in Excel, or upload it to Google Drive and open it with Google Sheets."
+msgstr ""
+
+msgid "Fill in the yellow cells on the Ingredient library tab with what you pay and the package size."
+msgstr ""
+
+msgid "On Cake costing, choose ingredients from the drop-down and enter the amounts your recipe uses."
+msgstr ""
+
+msgid "Add packaging, your minutes and your hourly rate. Right-click the tab to duplicate it for another product."
+msgstr ""
+
+msgid "Will it tell me what to charge?"
+msgstr ""
+
+msgid "No. It adds up your costs and shows the arithmetic for a markup you choose. The price you set is your decision."
+msgstr ""
+
+msgid "Can I use it for cookies or bread?"
+msgstr ""
+
+msgid "Yes. Rename the tab and the product, and it works for any bake."
+msgstr ""
+
+msgid "Does it work with my currency?"
+msgstr ""
+
+msgid "Yes. The numbers are plain values — set any currency format you like."
+msgstr ""
+
+msgid "What hourly rate should I use?"
+msgstr ""
+
+msgid "That is up to you. The sheet simply uses the rate you enter so you can see how your time adds up."
+msgstr ""
+
+msgid "Bakery Launch Kit"
+msgstr ""
+
+msgid "Order form, customer questionnaire, menu and launch checklist templates laid out together"
+msgstr ""
+
+msgid "Bakery Launch Kit (ZIP, 4 files)"
+msgstr ""
+
+msgid "A focused bundle of four editable files — order form, customer questionnaire, menu template and launch checklist — for bakers getting ready to take orders."
+msgstr ""
+
+msgid "Starting to sell from home comes with a pile of small documents. This kit covers the four you will use straight away: an order form to capture every detail, a questionnaire to send before you quote, a simple menu layout, and a checklist that walks through launch tasks in stages."
+msgstr ""
+
+msgid "Replace the [square brackets] with your own details, add your logo and colours, and you are ready to go."
+msgstr ""
+
+msgid "Collect the same details for every order"
+msgstr ""
+
+msgid "Ask the right questions before quoting a custom bake"
+msgstr ""
+
+msgid "Present your products and ordering information clearly"
+msgstr ""
+
+msgid "Work through launch tasks from planning to first orders"
+msgstr ""
+
+msgid "New and soon-to-launch home bakers, or anyone tidying up how they take orders."
+msgstr ""
+
+msgid "Preparing the documents and steps needed to start taking orders"
+msgstr ""
+
+msgid "Bundle · DOCX + XLSX (ZIP)"
+msgstr ""
+
+msgid "Word, Google Docs or LibreOffice Writer (.docx); Excel, Google Sheets or LibreOffice Calc (.xlsx)"
+msgstr ""
+
+msgid "01-order-form.docx — customer, order, pickup and payment fields"
+msgstr ""
+
+msgid "02-customer-questionnaire.docx — 11 questions to ask before quoting"
+msgstr ""
+
+msgid "03-menu-template.docx — sections for cakes, cookies, small bakes and specials"
+msgstr ""
+
+msgid "04-launch-checklist.xlsx — 25 tasks in six stages with a progress count"
+msgstr ""
+
+msgid "READ-ME-FIRST.txt — quick instructions"
+msgstr ""
+
+msgid "Download the ZIP file and unzip it: double-click on a Mac, or right-click → Extract All on Windows."
+msgstr ""
+
+msgid "Open the .docx files in Word, or upload them to Google Drive and open them with Google Docs."
+msgstr ""
+
+msgid "Replace everything in [square brackets] with your bakery details."
+msgstr ""
+
+msgid "Open the checklist in a spreadsheet app and mark tasks \"Yes\" as you complete them."
+msgstr ""
+
+msgid "Does the checklist cover legal requirements?"
+msgstr ""
+
+msgid "It reminds you to research the rules for selling food from home where you live, but it is not legal advice and does not list specific requirements."
+msgstr ""
+
+msgid "Can I add my logo and colours?"
+msgstr ""
+
+msgid "Yes. All files are fully editable."
+msgstr ""
+
+msgid "Can I give the order form to customers?"
+msgstr ""
+
+msgid "Yes. You can share blank or completed forms with your own customers. Please do not resell or share the template files themselves."
+msgstr ""
+
+msgid "Why is it a ZIP file?"
+msgstr ""
+
+msgid "It keeps all four files together in one download. Unzipping is built into Windows and macOS."
+msgstr ""
+
+msgid "Social Content Planner for Bakers"
+msgstr ""
+
+msgid "Tablet showing a monthly social media calendar with colour-coded post themes"
+msgstr ""
+
+msgid "Social Content Planner for Bakers (XLSX)"
+msgstr ""
+
+msgid "An editable monthly planner with post prompts organised around your bakery products and seasonal promotions."
+msgstr ""
+
+msgid "When you are busy baking, posting is often the first thing to slip. This planner helps you sketch out a month in one sitting: choose a theme for each day you plan to post, pick the product to feature, borrow a prompt from the prompt bank and track each post from idea to posted."
+msgstr ""
+
+msgid "A seasonal ideas tab lists occasions you might plan around through the year, with a reminder to check the dates that apply where you live."
+msgstr ""
+
+msgid "Plan a realistic number of posts for the month"
+msgstr ""
+
+msgid "Feature each of your products in a balanced way"
+msgstr ""
+
+msgid "Have prompts ready for days when ideas run dry"
+msgstr ""
+
+msgid "Prepare seasonal pre-orders and promotions ahead of time"
+msgstr ""
+
+msgid "Home bakers who promote their business on social media and want a simple monthly plan instead of daily guesswork."
+msgstr ""
+
+msgid "Planning posts around products and seasonal promotions"
+msgstr ""
+
+msgid "social-content-planner-for-bakers.xlsx — tabs: Start here, Monthly planner, Prompt bank, Seasonal ideas, Lists"
+msgstr ""
+
+msgid "22 post prompts across 8 themes, from product spotlights to order reminders"
+msgstr ""
+
+msgid "A 12-month list of seasonal ideas to adapt to your region"
+msgstr ""
+
+msgid "On Monthly planner, type the month and the dates you plan to post."
+msgstr ""
+
+msgid "Choose a theme and format from the drop-downs and borrow a prompt from the Prompt bank."
+msgstr ""
+
+msgid "Duplicate the Monthly planner tab at the start of each new month."
+msgstr ""
+
+msgid "Does it post for me?"
+msgstr ""
+
+msgid "No. It is a planning template. You publish posts yourself on whichever platform you use."
+msgstr ""
+
+msgid "Which platforms does it suit?"
+msgstr ""
+
+msgid "Any. The themes and prompts work for photo, video and text posts."
+msgstr ""
+
+msgid "Will it grow my followers?"
+msgstr ""
+
+msgid "We cannot promise any results. It helps you plan and post consistently, which is the part you control."
+msgstr ""
+
+msgid "Can I add my own prompts and themes?"
+msgstr ""
+
+msgid "Yes. Add rows to the Prompt bank and edit the Lists tab to change the drop-downs."
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Editable templates for home bakers: order tracker, cake pricing calculator, launch kit and social content planner. Instant download, nothing shipped."
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "Crumb & Co. Studio makes practical, editable digital tools for home-based bakers: a small, focused range built around real bakery tasks."
+msgstr ""
+
+msgid "FAQ"
+msgstr ""
+
+msgid "Answers about buying, downloading and editing our digital templates for home bakers: file formats, software, licence, refunds and support."
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Questions about a product or a download? Contact Crumb & Co. Studio support. Include your order number and we will help."
+msgstr ""
+
+msgid "Digital Download & Refund Policy"
+msgstr ""
+
+msgid "How delivery works for our digital downloads, what to do if a file has a problem, and when refunds are possible."
+msgstr ""
+
+msgid "Privacy Policy"
+msgstr ""
+
+msgid "How Crumb & Co. Studio collects, uses and protects your personal data when you shop, join the email list or contact us."
+msgstr ""
+
+msgid "Terms & Conditions"
+msgstr ""
+
+msgid "Terms of sale and licence for the Crumb & Co. Studio digital templates for home bakers."
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "Checkout"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Main navigation"
+msgstr ""
+
+msgid "Shop"
+msgstr ""
+
+msgid "Footer: Shop"
+msgstr ""
+
+msgid "All products"
+msgstr ""
+
+msgid "My account & downloads"
+msgstr ""
+
+msgid "Footer: Help & policies"
+msgstr ""
+
+msgid "Digital download & refund policy"
+msgstr ""
+
+msgid "Privacy policy"
+msgstr ""
+
+msgid "Terms & conditions"
+msgstr ""
+
+msgid "Crumb & Co."
+msgstr ""
+
+msgid "Starter content"
+msgstr ""
+
+msgid "Shop settings"
+msgstr ""
+
+msgid "Your order contains digital downloads only"
+msgstr ""
+
+msgid "Nothing will be shipped, so there is no delivery charge. Your download links appear as soon as payment is confirmed: on the order confirmation page, in your email and in My Account → Downloads."
+msgstr ""
+
+msgid "Your files are ready"
+msgstr ""
+
+msgid "Download them below. We have also emailed the links, and they stay available in <a href=\"%s\">My Account → Downloads</a> if you created an account. Nothing will be shipped."
+msgstr ""
+
+msgid "Digital download — nothing is shipped"
+msgstr ""
+
+msgid "You will receive editable files, not a printed product. Download links appear right after payment, by email and in <a href=\"%1$s\">My Account</a>. Problems with a file? <a href=\"%2$s\">Contact support</a>."
+msgstr ""
+
+msgid "Digital download"
+msgstr ""
+
+msgid "Who it is for"
+msgstr ""
+
+msgid "Helps with"
+msgstr ""
+
+msgid "Format"
+msgstr ""
+
+msgid "Works with"
+msgstr ""
+
+msgid "Add to cart — instant download"
+msgstr ""
+
+msgid "Your digital files are ready. Use the download links in this email or in My Account → Downloads. Nothing will be shipped."
+msgstr ""
+
+msgid "This order contains digital downloads. Your download links will be sent as soon as payment is confirmed. Nothing will be shipped."
+msgstr ""
+
+msgid "This product still has a placeholder price from the starter content. Set your real price (Product data → General) and update this product."
+msgstr ""
+
+msgid "Subscribers"
+msgstr ""
+
+msgid "Subscriber"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Joined"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Not allowed."
+msgstr ""
+
+msgid "Crumb & Co. email list"
+msgstr ""
+
+msgid "Email list"
+msgstr ""
+
+msgid "Thank you for joining! Your free one-page order tracker is ready."
+msgstr ""
+
+msgid "Download the free tracker (PDF)"
+msgstr ""
+
+msgid "Please enter a valid email address and tick the consent box."
+msgstr ""
+
+msgid "Too many attempts. Please try again later."
+msgstr ""
+
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+msgid "Leave this field empty"
+msgstr ""
+
+msgid "Email address"
+msgstr ""
+
+msgid "Your email address"
+msgstr ""
+
+msgid "Send me the free tracker"
+msgstr ""
+
+msgid "Unsubscribe any time. Read our <a href=\"%s\">privacy policy</a>."
+msgstr ""
+
+msgid "Yes, email me the free tracker and occasional updates about new tools from Crumb & Co. Studio."
+msgstr ""
+
+msgid "Thanks — your message has been sent. We will reply by email."
+msgstr ""
+
+msgid "Please fill in your name, a valid email address and a message."
+msgstr ""
+
+msgid "Too many messages. Please try again later or email us directly."
+msgstr ""
+
+msgid "Your message could not be sent. Please email us directly."
+msgstr ""
+
+msgid "Your name"
+msgstr ""
+
+msgid "Order number (optional)"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "We only use these details to reply to you."
+msgstr ""
+
+msgid "Send message"
+msgstr ""
+
+msgid "[Contact] Message from %s"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "One or two sentences."
+msgstr ""
+
+msgid "Task it helps with"
+msgstr ""
+
+msgid "Short phrase, e.g. \"Recording customer orders\"."
+msgstr ""
+
+msgid "Format label"
+msgstr ""
+
+msgid "Shown on product cards, e.g. \"Spreadsheet · XLSX\"."
+msgstr ""
+
+msgid "Compatible software"
+msgstr ""
+
+msgid "e.g. \"Microsoft Excel, Google Sheets, LibreOffice Calc\"."
+msgstr ""
+
+msgid "Files included"
+msgstr ""
+
+msgid "One file per line."
+msgstr ""
+
+msgid "Download & editing steps"
+msgstr ""
+
+msgid "One step per line."
+msgstr ""
+
+msgid "Product FAQ"
+msgstr ""
+
+msgid "Question on the first line, answer on the next line(s). Leave an empty line between questions."
+msgstr ""
+
+msgid "Crumb & Co. product details"
+msgstr ""
+
+msgid "These details appear in the product summary and in the \"What’s included\", \"Download & editing\" and \"FAQ\" tabs. The main description and short description are edited in the usual places."
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "What’s included"
+msgstr ""
+
+msgid "Download & editing"
+msgstr ""
+
+msgid "Compatible software:"
+msgstr ""
+
+msgid "Template files are written in English and every label can be edited, so you can translate them into your own language."
+msgstr ""
+
+msgid "How to download"
+msgstr ""
+
+msgid "Add the product to your cart and check out securely."
+msgstr ""
+
+msgid "As soon as payment is confirmed, your download link appears on the order confirmation page."
+msgstr ""
+
+msgid "The same link is emailed to you and kept in My Account → Downloads."
+msgstr ""
+
+msgid "How to edit"
+msgstr ""
+
+msgid "Questions about this product"
+msgstr ""
+
+msgid "Editable digital templates for home bakers: order trackers, cost calculators, launch documents and content planners. Instant download — nothing is shipped."
+msgstr ""
+
+msgid "Search description"
+msgstr ""
+
+msgid "Shown under the title in Google results. Aim for 120–155 characters that describe this page honestly. Installing an SEO plugin replaces this box."
+msgstr ""
+
+msgid "Business name"
+msgstr ""
+
+msgid "Shown in the footer copyright line. Leave empty to use \"Crumb & Co. Studio\"."
+msgstr ""
+
+msgid "Support email"
+msgstr ""
+
+msgid "Shown on the Contact page and used in download notices. Defaults to the site admin email."
+msgstr ""
+
+msgid "Contact form recipient"
+msgstr ""
+
+msgid "Where contact form messages are sent. Defaults to the support email."
+msgstr ""
+
+msgid "Announcement bar text"
+msgstr ""
+
+msgid "Leave empty to use the built-in translated text."
+msgstr ""
+
+msgid "Footer description"
+msgstr ""
+
+msgid "Free sample file URL"
+msgstr ""
+
+msgid "Link shown after someone joins the email list. Leave empty to use the included one-page order tracker PDF."
+msgstr ""
+
+msgid "Simplify classic checkout"
+msgstr ""
+
+msgid "Hide street address fields when the cart only contains digital products (classic checkout only; for the Checkout block, toggle fields in the block settings)."
+msgstr ""
+
+msgid "Search & sharing"
+msgstr ""
+
+msgid "Default share image URL"
+msgstr ""
+
+msgid "Image used when a page without its own image is shared (1200 × 630 px). Leave empty to use the included Crumb & Co. image."
+msgstr ""
+
+msgid "Social profile URLs"
+msgstr ""
+
+msgid "One URL per line (Instagram, Pinterest…). Added to your Organization structured data so Google can connect your profiles to the shop."
+msgstr ""
+
+msgid "Google Search Console verification code"
+msgstr ""
+
+msgid "Paste the code (or the whole meta tag) from Search Console → Add property → HTML tag. Not needed if you verify with Site Kit or DNS."
+msgstr ""
+
+msgid "Bing Webmaster Tools verification code"
+msgstr ""
+
+msgid "Optional. Paste the msvalidate.01 code or meta tag."
+msgstr ""
+
+msgid "Return policy (structured data)"
+msgstr ""
+
+msgid "Not set — do not output"
+msgstr ""
+
+msgid "No returns/refunds"
+msgstr ""
+
+msgid "Refunds within a number of days"
+msgstr ""
+
+msgid "Must match your Digital Download & Refund Policy page. Google shows return information in shopping results."
+msgstr ""
+
+msgid "Refund window (days)"
+msgstr ""
+
+msgid "Only used with \"Refunds within a number of days\"."
+msgstr ""
+
+msgid "Countries the policy applies to"
+msgstr ""
+
+msgid "Two-letter country codes separated by commas, e.g. FR, BE, ES, MA. Required by Google for return policy markup."
+msgstr ""
+
+msgid "Crumb & Co. shop settings"
+msgstr ""
+
+msgid "Business details and site-wide text. Page content, products and prices are edited in Pages and Products as usual."
+msgstr ""
+
+msgid "Polylang is active: after saving, translate the text fields under Languages → Translations (group \"Crumb & Co.\")."
+msgstr ""
+
+msgid "Payments"
+msgstr ""
+
+msgid "Payment providers are not configured by this plugin. Enable and connect one (for example WooPayments, Stripe or PayPal) in WooCommerce → Settings → Payments, then update the payment placeholders on the FAQ, Privacy Policy and Terms pages."
+msgstr ""
+
+msgid "Open payment settings"
+msgstr ""
+
+msgid "Crumb & Co. starter content"
+msgstr ""
+
+msgid "Creates the shop pages, four digital products with their download files, menus and recommended WooCommerce settings for a digital-only shop. It only creates what is missing, so it is safe to run again (for example after adding a language)."
+msgstr ""
+
+msgid "Setup log"
+msgstr ""
+
+msgid "Checklist"
+msgstr ""
+
+msgid "WooCommerce active"
+msgstr ""
+
+msgid "Crumb & Co. Studio theme active"
+msgstr ""
+
+msgid "Polylang active (needed for Arabic, French and Spanish versions)"
+msgstr ""
+
+msgid "optional: without it, content is created in the site language only"
+msgstr ""
+
+msgid "Payment provider"
+msgstr ""
+
+msgid "Configure in WooCommerce → Settings → Payments"
+msgstr ""
+
+msgid "Add any missing Polylang languages (English, العربية, Français, Español) and download their WordPress language packs"
+msgstr ""
+
+msgid "Use the new Home page as the front page"
+msgstr ""
+
+msgid "Apply digital-shop WooCommerce settings (secure forced downloads, access after payment, shipping disabled)"
+msgstr ""
+
+msgid "Create starter content"
+msgstr ""
+
+msgid "Activate WooCommerce and the Crumb & Co. Studio theme first."
+msgstr ""
+
+msgid "After setup"
+msgstr ""
+
+msgid "Set real prices on each product (they start with placeholder prices)."
+msgstr ""
+
+msgid "Fill in every [placeholder] on the About, FAQ, Contact and policy pages."
+msgstr ""
+
+msgid "Add your support email under Crumb & Co. → Shop settings, and your logo in Appearance → Editor."
+msgstr ""
+
+msgid "Connect a payment provider and place a test order to check the download email."
+msgstr ""
+
+msgid "WooCommerce and the Crumb & Co. Studio theme must be active."
+msgstr ""
+
+msgid "Polylang has no English, Arabic, French or Spanish language yet. Add one under Languages, then run setup again."
+msgstr ""
+
+msgid "Home page set as the front page."
+msgstr ""
+
+msgid "Done. Remember to replace the placeholder prices and [placeholder] text."
+msgstr ""
+
+msgid "Could not add the language %s automatically. Add it under Languages, then run setup again."
+msgstr ""
+
+msgid "Added language: %s"
+msgstr ""
+
+msgid "WooCommerce set up for digital products: forced (protected) downloads, access granted after payment, shipping disabled."
+msgstr ""
+
+msgid "Note: could not register the approved download folder automatically. Check WooCommerce → Settings → Products → Approved download directories."
+msgstr ""
+
+msgid "Download files ready in a protected folder: %d"
+msgstr ""
+
+msgid "Image import failed: %s"
+msgstr ""
+
+msgid "Product images imported: %d"
+msgstr ""
+
+msgid "Page created: %1$s (%2$s)"
+msgstr ""
+
+msgid "What it helps you do"
+msgstr ""
+
+msgid "Product created: %1$s (%2$s)"
+msgstr ""
+

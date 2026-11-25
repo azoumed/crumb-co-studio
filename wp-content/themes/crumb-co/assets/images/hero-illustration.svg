@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560" role="img" aria-labelledby="t"><title id="t">Illustration of a layered cake beside a tablet showing an order list</title>
+<circle cx="330" cy="290" r="250" fill="#E3EBDD"/>
+<circle cx="520" cy="110" r="70" fill="#F6DCE3"/>
+<g fill="none" stroke="#7E9C7C" stroke-width="5" stroke-linecap="round"><path d="M88 150c16-20 40-20 56 0"/><path d="M560 430c10-14 28-14 38 0"/></g>
+<g transform="translate(250 110) rotate(4)">
+ <rect width="300" height="380" rx="30" fill="#3B2A20"/>
+ <rect x="16" y="16" width="268" height="348" rx="16" fill="#FFFFFF"/>
+ <rect x="16" y="16" width="268" height="54" rx="16" fill="#F4EADB"/>
+ <rect x="16" y="54" width="268" height="16" fill="#F4EADB"/>
+ <rect x="36" y="34" width="110" height="16" rx="8" fill="#3B2A20"/>
+ <g fill="#F4EADB"><rect x="36" y="96" width="120" height="12" rx="6"/><rect x="36" y="150" width="96" height="12" rx="6"/><rect x="36" y="204" width="130" height="12" rx="6"/><rect x="36" y="258" width="108" height="12" rx="6"/><rect x="36" y="312" width="90" height="12" rx="6"/></g>
+ <rect x="190" y="90" width="72" height="24" rx="12" fill="#E3EBDD"/><rect x="190" y="144" width="72" height="24" rx="12" fill="#F6DCE3"/><rect x="190" y="198" width="72" height="24" rx="12" fill="#F6EBD2"/><rect x="190" y="252" width="72" height="24" rx="12" fill="#E3EBDD"/><rect x="190" y="306" width="72" height="24" rx="12" fill="#F6DCE3"/>
+ <g stroke="#EFE6D9" stroke-width="2"><path d="M30 130h240M30 184h240M30 238h240M30 292h240"/></g>
+</g>
+<g transform="translate(70 230)">
+ <ellipse cx="150" cy="292" rx="170" ry="22" fill="#3B2A20" opacity=".12"/>
+ <rect x="10" y="270" width="280" height="18" rx="9" fill="#D9C7B0"/>
+ <path d="M135 270h30l-6-26h-18z" fill="#C9B396"/>
+ <rect x="40" y="150" width="220" height="100" rx="14" fill="#FBF6EE" stroke="#3B2A20" stroke-width="5"/>
+ <rect x="40" y="194" width="220" height="14" fill="#F6DCE3"/>
+ <rect x="70" y="70" width="160" height="84" rx="12" fill="#FBF6EE" stroke="#3B2A20" stroke-width="5"/>
+ <path d="M70 92c10 0 10 18 22 18s12-14 24-14 12 22 26 22 12-20 26-20 12 16 24 16 8-12 8-22v-6H70z" fill="#B8325A"/>
+ <path d="M40 172c12 0 12 22 26 22s14-16 28-16 14 26 30 26 14-22 30-22 14 18 28 18 14-14 28-14 12 10 20 10 10-8 10-16v-8H40z" fill="#B8325A" opacity=".9"/>
+ <g stroke="#3B2A20" stroke-width="5" stroke-linecap="round"><path d="M150 70V40"/></g>
+ <path d="M150 40c-10-8-10-22 0-30 10 8 10 22 0 30z" fill="#F2B544" stroke="#3B2A20" stroke-width="4"/>
+ <g fill="#7E9C7C"><circle cx="110" cy="230" r="5"/><circle cx="190" cy="226" r="5"/><circle cx="150" cy="236" r="5"/><circle cx="230" cy="232" r="5"/><circle cx="70" cy="228" r="5"/></g>
+</g>
+<g transform="translate(520 360) rotate(28)" stroke="#3B2A20" stroke-width="5" fill="none" stroke-linecap="round"><path d="M0 0v110"/><path d="M0 0c-26 0-36-30-36-58S-18-110 0-110s36 24 36 52S26 0 0 0z"/><path d="M-14-20c-6-24-6-52 6-80M14-20c6-24 6-52-6-80"/></g>
+<g fill="#B8325A"><rect x="110" y="96" width="16" height="6" rx="3" transform="rotate(30 118 99)"/><rect x="590" y="250" width="16" height="6" rx="3" transform="rotate(-20 598 253)"/><rect x="200" y="60" width="16" height="6" rx="3" transform="rotate(70 208 63)"/></g>
+<g fill="#7E9C7C"><rect x="60" y="400" width="16" height="6" rx="3" transform="rotate(-40 68 403)"/><rect x="470" y="40" width="16" height="6" rx="3" transform="rotate(15 478 43)"/></g>
+</svg>
