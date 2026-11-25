@@ -7,9 +7,9 @@
  * Post Types: page
  * Block Types: core/post-content
  * Viewport width: 1400
- * Description: Complete homepage: hero, featured products, bakery tasks, how it works, feedback placeholders and free sample signup.
+ * Description: Complete homepage: task picker hero, the full toolkit, how it works, free sample signup and feedback placeholders.
  */
-foreach ( array( 'hero', 'featured-products', 'bakery-tasks', 'how-it-works', 'feedback-placeholder', 'free-sample-signup' ) as $crumb_co_part ) {
+foreach ( array( 'hero', 'featured-products', 'how-it-works', 'free-sample-signup', 'feedback-placeholder' ) as $crumb_co_part ) {
 	include __DIR__ . '/' . $crumb_co_part . '.php';
 	echo "\n\n";
 }

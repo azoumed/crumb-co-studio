@@ -10,11 +10,7 @@
 ?>
 <?php echo crumb_co_section_open( 'ccs-feedback has-surface-background-color has-background' ); // phpcs:ignore ?>
 <!-- wp:group {"className":"ccs-section__intro","layout":{"type":"constrained","contentSize":"640px"}} -->
-<div class="wp-block-group ccs-section__intro"><!-- wp:paragraph {"align":"center","className":"ccs-eyebrow"} -->
-<p class="has-text-align-center ccs-eyebrow"><?php esc_html_e( 'Customer feedback', 'crumb-co' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"textAlign":"center"} -->
+<div class="wp-block-group ccs-section__intro"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Words from bakers using the toolkit', 'crumb-co' ); ?></h2>
 <!-- /wp:heading -->
 

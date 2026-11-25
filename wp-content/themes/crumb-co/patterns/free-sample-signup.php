@@ -18,11 +18,7 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:paragraph {"className":"ccs-eyebrow"} -->
-<p class="ccs-eyebrow"><?php esc_html_e( 'Free printable', 'crumb-co' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e( 'Try the one-page order tracker', 'crumb-co' ); ?></h2>
 <!-- /wp:heading -->
 

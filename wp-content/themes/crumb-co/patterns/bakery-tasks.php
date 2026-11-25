@@ -10,11 +10,7 @@
 ?>
 <!-- wp:group {"tagName":"section","align":"full","className":"ccs-section ccs-tasks","backgroundColor":"white","layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull ccs-section ccs-tasks has-white-background-color has-background"><!-- wp:group {"className":"ccs-section__intro","layout":{"type":"constrained","contentSize":"640px"}} -->
-<div class="wp-block-group ccs-section__intro"><!-- wp:paragraph {"align":"center","className":"ccs-eyebrow"} -->
-<p class="has-text-align-center ccs-eyebrow"><?php esc_html_e( 'Why these tools exist', 'crumb-co' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:heading {"textAlign":"center"} -->
+<div class="wp-block-group ccs-section__intro"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Made for real bakery tasks', 'crumb-co' ); ?></h2>
 <!-- /wp:heading -->
 

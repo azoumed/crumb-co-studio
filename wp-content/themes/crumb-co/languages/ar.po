@@ -1,634 +1,925 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: crumb-co 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 18:17+0100\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Domain: crumb-co\n"
 
+#: functions.php:41
 msgid "Main navigation"
 msgstr "القائمة الرئيسية"
 
+#: functions.php:42
 msgid "Footer: Shop"
 msgstr "التذييل: المتجر"
 
+#: functions.php:43
 msgid "Footer: Help & policies"
 msgstr "التذييل: المساعدة والسياسات"
 
+#: functions.php:61
 msgid "Crumb & Co. sections"
 msgstr "أقسام Crumb & Co."
 
+#: functions.php:62
 msgid "Crumb & Co. pages"
 msgstr "صفحات Crumb & Co."
 
+#: functions.php:102
 msgid "Digital tools for your home bakery — instant download, nothing shipped."
 msgstr "أدوات رقمية لمخبزك المنزلي — تنزيل فوري، ولا يُشحن أي شيء."
 
+#: functions.php:103
 msgid "Practical, editable templates that help home bakers organise orders, cost their bakes and share their work."
 msgstr "قوالب عملية وقابلة للتعديل تساعد الخبّازين في المنزل على تنظيم الطلبات وحساب التكاليف والتعريف بأعمالهم."
 
+#: functions.php:104
 msgid "Crumb & Co. Studio"
 msgstr "Crumb & Co. Studio"
 
+#: functions.php:137
 msgid "All products are digital downloads. No physical items are shipped."
 msgstr "جميع المنتجات تنزيلات رقمية. لا تُشحن أي منتجات مادية."
 
+#: functions.php:151
 msgid "Choose language"
 msgstr "اختر اللغة"
 
+#: functions.php:177
 msgid "Main"
 msgstr "الرئيسية"
 
+#: functions.php:179
 msgid "Menu"
 msgstr "القائمة"
 
+#: functions.php:190 functions.php:208
 msgid "Shop"
 msgstr "المتجر"
 
+#: functions.php:191 functions.php:223
 msgid "About"
 msgstr "من نحن"
 
+#: functions.php:192 functions.php:222
 msgid "FAQ"
 msgstr "الأسئلة الشائعة"
 
+#: functions.php:193 functions.php:222
 msgid "Contact"
 msgstr "تواصل معنا"
 
+#: functions.php:209
 msgid "Help & policies"
 msgstr "المساعدة والسياسات"
 
+#: functions.php:222
 msgid "Digital download & refund policy"
 msgstr "سياسة التنزيل الرقمي والاسترداد"
 
+#: functions.php:222
 msgid "Privacy policy"
 msgstr "سياسة الخصوصية"
 
+#: functions.php:222
 msgid "Terms"
 msgstr "الشروط"
 
+#: functions.php:223 inc/shop-filters.php:55
 msgid "All products"
 msgstr "كل المنتجات"
 
+#: functions.php:223
 msgid "My account & downloads"
 msgstr "حسابي والتنزيلات"
 
+#: functions.php:238
 msgid "The Toolkit"
 msgstr "مجموعة الأدوات"
 
+#: functions.php:239
 msgid "Editable templates for the everyday jobs of a home bakery. Every product is a digital download — nothing is shipped."
 msgstr "قوالب قابلة للتعديل للمهام اليومية في المخبز المنزلي. كل منتج تنزيل رقمي — لا يُشحن أي شيء."
 
+#. translators: %s: search terms
+#: functions.php:246
+#, php-format
 msgid "Results for “%s”"
 msgstr "نتائج البحث عن «%s»"
 
-msgid "Digital downloads for home bakers"
-msgstr "تنزيلات رقمية للخبّازين في المنزل"
-
+#: functions.php:275
 msgid "Breadcrumb"
 msgstr "مسار التنقل"
 
+#: functions.php:312
 msgid "Nothing found. Try another search or browse the toolkit."
 msgstr "لم يتم العثور على نتائج. جرّب بحثًا آخر أو تصفّح مجموعة الأدوات."
 
+#: functions.php:313 patterns/not-found.php:21
 msgid "Browse the toolkit"
 msgstr "تصفّح مجموعة الأدوات"
 
+#: inc/shop-filters.php:33
 msgid "Search & filter"
 msgstr "البحث والتصفية"
 
+#: inc/shop-filters.php:37
 msgid "Search the toolkit"
 msgstr "ابحث في مجموعة الأدوات"
 
+#: inc/shop-filters.php:39
 msgid "e.g. order tracker"
 msgstr "مثال: متتبع الطلبات"
 
+#: inc/shop-filters.php:44
 msgid "Search"
 msgstr "بحث"
 
+#: inc/shop-filters.php:53 patterns/category-grid.php:13
 msgid "Shop by task"
 msgstr "تسوّق حسب المهمة"
 
+#: inc/shop-filters.php:68
 msgid "File format"
 msgstr "صيغة الملف"
 
+#: inc/shop-filters.php:79
 msgid "Price"
 msgstr "السعر"
 
+#: inc/shop-filters.php:81
 msgid "Min"
 msgstr "الأدنى"
 
+#: inc/shop-filters.php:83
 msgid "Max"
 msgstr "الأعلى"
 
+#: inc/shop-filters.php:90
 msgid "Apply"
 msgstr "تطبيق"
 
+#: inc/shop-filters.php:91
 msgid "Clear filters"
 msgstr "مسح عوامل التصفية"
 
+#: inc/shop-filters.php:97
 msgid "Questions before you buy?"
 msgstr "لديك أسئلة قبل الشراء؟"
 
+#: inc/shop-filters.php:98
 msgid "Every product is a digital download. See how downloads work, or ask us anything."
 msgstr "كل منتج تنزيل رقمي. تعرّف على طريقة عمل التنزيلات، أو اسألنا عن أي شيء."
 
+#: inc/shop-filters.php:99
 msgid "Read the FAQ"
 msgstr "اقرأ الأسئلة الشائعة"
 
+#: inc/shop-filters.php:99
 msgid "Contact support"
 msgstr "تواصل مع الدعم"
 
-msgid "Why these tools exist"
-msgstr "لماذا وُجدت هذه الأدوات"
-
-msgid "Made for real bakery tasks"
-msgstr "مصمّمة لمهام المخبز الحقيقية"
-
-msgid "Running a bakery from home means juggling orders, costs and customers between batches. Each tool tackles one of those jobs."
-msgstr "إدارة مخبز من المنزل تعني التوفيق بين الطلبات والتكاليف والعملاء بين دفعة خَبز وأخرى. كل أداة تتولّى واحدة من هذه المهام."
-
+#: inc/task-picker.php:28 patterns/bakery-tasks.php:30
 msgid "Keeping orders straight"
 msgstr "ترتيب الطلبات"
 
-msgid "Track who ordered what, when it's due, what's been paid and what's still to bake — in one sheet instead of scattered messages."
-msgstr "سجّل من طلب ماذا، وموعد التسليم، وما تم دفعه، وما بقي للخَبز — في جدول واحد بدلًا من رسائل متفرقة."
+#: inc/task-picker.php:29
+msgid "Orders, pickups, deposits"
+msgstr "الطلبات والاستلام والعربون"
 
-msgid "Order tools"
-msgstr "أدوات الطلبات"
-
+#: inc/task-picker.php:33 patterns/bakery-tasks.php:48
 msgid "Knowing what a bake costs"
 msgstr "معرفة تكلفة كل مخبوز"
 
-msgid "Add up ingredients, packaging and your time so you can see your real costs before you set a price."
-msgstr "اجمع تكاليف المكونات والتغليف ووقتك لتعرف تكاليفك الحقيقية قبل أن تحدد السعر."
+#: inc/task-picker.php:34
+msgid "Ingredients, packaging, your time"
+msgstr "المكونات والتغليف ووقتك"
 
-msgid "Pricing tools"
-msgstr "أدوات التسعير"
-
+#: inc/task-picker.php:38 patterns/bakery-tasks.php:66
 msgid "Getting ready to take orders"
 msgstr "الاستعداد لاستقبال الطلبات"
 
-msgid "An order form, customer questionnaire, menu and launch checklist so you don't start from a blank page."
-msgstr "نموذج طلب، واستبيان للعملاء، وقائمة منتجات، وقائمة مهام للإطلاق حتى لا تبدأ من صفحة فارغة."
+#: inc/task-picker.php:39
+msgid "Order form, menu, checklist"
+msgstr "نموذج الطلب والقائمة وقائمة المهام"
 
-msgid "Launch tools"
-msgstr "أدوات الإطلاق"
-
+#: inc/task-picker.php:43 patterns/bakery-tasks.php:84
 msgid "Knowing what to post"
 msgstr "معرفة ما تنشره"
 
-msgid "Plan a month of posts around your products and the seasons, with prompts for the days ideas run dry."
-msgstr "خطّط لشهر من المنشورات حول منتجاتك والمواسم، مع أفكار جاهزة للأيام التي تنضب فيها الأفكار."
-
-msgid "Marketing tools"
-msgstr "أدوات التسويق"
-
-msgid "Digital downloads only"
-msgstr "تنزيلات رقمية فقط"
-
-msgid "Every product is a file you download. Nothing physical is printed or shipped."
-msgstr "كل منتج ملف تقوم بتنزيله. لا يُطبع أو يُشحن أي شيء مادي."
-
-msgid "Instant access"
-msgstr "وصول فوري"
-
-msgid "Download links appear on your order confirmation, in your email and in My Account → Downloads."
-msgstr "تظهر روابط التنزيل في تأكيد الطلب، وفي بريدك الإلكتروني، وفي حسابي ← التنزيلات."
-
-msgid "Help when you need it"
-msgstr "مساعدة عند الحاجة"
-
-msgid "Trouble downloading or opening a file? <a href=\"%s\">Contact support</a> and include your order number."
-msgstr "تواجه مشكلة في تنزيل ملف أو فتحه؟ <a href=\"%s\">تواصل مع الدعم</a> واذكر رقم طلبك."
-
-msgid "The starter toolkit"
-msgstr "مجموعة الأدوات الأساسية"
-
-msgid "Four focused tools. No fluff."
-msgstr "أربع أدوات مركّزة. بلا حشو."
-
-msgid "See all products"
-msgstr "عرض كل المنتجات"
-
-msgid "Customer feedback"
-msgstr "آراء العملاء"
-
-msgid "Words from bakers using the toolkit"
-msgstr "كلمات من خبّازين يستخدمون مجموعة الأدوات"
-
-msgid "We are a new shop, so we have not collected feedback yet. These spaces are saved for real comments from customers, shared with their permission."
-msgstr "متجرنا جديد، لذا لم نجمع آراء بعد. هذه المساحات محجوزة لتعليقات حقيقية من العملاء تُنشر بإذنهم."
-
-msgid "Placeholder"
-msgstr "محتوى مؤقت"
-
-msgid "[Add a real customer comment here, in their own words, once they have agreed to share it.]"
-msgstr "[أضف هنا تعليقًا حقيقيًا لأحد العملاء بكلماته، بعد موافقته على نشره.]"
-
-msgid "[First name] · [Type of bakery] · [Product used]"
-msgstr "[الاسم الأول] · [نوع المخبز] · [المنتج المستخدم]"
-
-msgid "Preview of the free one-page printable order tracker"
-msgstr "معاينة متتبع الطلبات المجاني القابل للطباعة في صفحة واحدة"
-
-msgid "Free printable"
-msgstr "ملف مجاني للطباعة"
-
-msgid "Try the one-page order tracker"
-msgstr "جرّب متتبع الطلبات في صفحة واحدة"
-
-msgid "A simple printable sheet for a week of orders: customer, item, pickup time, price, deposit and status. Join our email list and the download link appears right away."
-msgstr "ورقة بسيطة قابلة للطباعة لطلبات أسبوع كامل: العميل، والمنتج، ووقت الاستلام، والسعر، والعربون، والحالة. انضم إلى قائمتنا البريدية ليظهر رابط التنزيل فورًا."
-
-msgid "Templates & tools for home bakers"
-msgstr "قوالب وأدوات للخبّازين في المنزل"
-
-msgid "Spend less time organizing. More time baking."
-msgstr "وقت أقل في التنظيم. ووقت أكثر في الخَبز."
-
-msgid "Crumb & Co. Studio makes practical, editable templates for home-based bakers: order trackers, cost calculators, launch documents and content planners. Download them, make them yours, and get back to the oven."
-msgstr "يصمّم Crumb & Co. Studio قوالب عملية وقابلة للتعديل للخبّازين الذين يعملون من المنزل: متتبعات الطلبات، وحاسبات التكاليف، ومستندات الإطلاق، ومخططات المحتوى. نزّلها، واجعلها خاصة بك، وعُد إلى الفرن."
-
-msgid "Explore the Toolkit"
-msgstr "استكشف مجموعة الأدوات"
-
-msgid "Get the free order tracker"
-msgstr "احصل على متتبع الطلبات المجاني"
-
-msgid "Instant digital download"
-msgstr "تنزيل رقمي فوري"
-
-msgid "Edit in Excel, Google Sheets, Word or Google Docs"
-msgstr "قابلة للتعديل في Excel أو Google Sheets أو Word أو Google Docs"
-
-msgid "Nothing is shipped"
-msgstr "لا يُشحن أي شيء"
-
-msgid "Illustration of a layered cake next to a tablet showing an order list"
-msgstr "رسم توضيحي لكعكة متعددة الطبقات بجانب جهاز لوحي يعرض قائمة طلبات"
-
-msgid "How it works"
-msgstr "كيف يعمل"
-
-msgid "Three steps, then back to baking"
-msgstr "ثلاث خطوات، ثم العودة إلى الخَبز"
-
-msgid "Step %s"
-msgstr "الخطوة %s"
-
-msgid "Choose a tool"
-msgstr "اختر أداة"
-
-msgid "Pick the template that fits the job in front of you. Each product page lists exactly which files are included and what software opens them."
-msgstr "اختر القالب المناسب للمهمة التي أمامك. تعرض كل صفحة منتج الملفات المضمّنة بدقة والبرامج التي تفتحها."
-
-msgid "Download it"
-msgstr "نزّلها"
-
-msgid "Pay securely and your download links appear straight away on the order confirmation page, in your email and in My Account → Downloads."
-msgstr "ادفع بأمان وستظهر روابط التنزيل فورًا في صفحة تأكيد الطلب، وفي بريدك الإلكتروني، وفي حسابي ← التنزيلات."
-
-msgid "Customise it"
-msgstr "خصّصها"
-
-msgid "Open the file in Excel, Google Sheets, Word, Google Docs or LibreOffice. Change the wording, colours and categories to match your bakery."
-msgstr "افتح الملف في Excel أو Google Sheets أو Word أو Google Docs أو LibreOffice. غيّر النصوص والألوان والفئات لتناسب مخبزك."
-
-msgid "Digital products only."
-msgstr "منتجات رقمية فقط."
-
-msgid "You receive files to download — no physical items are printed or shipped."
-msgstr "تحصل على ملفات للتنزيل — لا تُطبع أو تُشحن أي منتجات مادية."
-
-msgid "This page has crumbled"
-msgstr "تفتّتت هذه الصفحة"
-
-msgid "The page you were looking for is not here. Try searching the toolkit or head back to the shop."
-msgstr "الصفحة التي تبحث عنها غير موجودة. جرّب البحث في مجموعة الأدوات أو عُد إلى المتجر."
-
-msgid "Crumb & Co. Studio makes practical digital tools for people who bake from home and sell what they make — cakes, cookies, breads and everything in between."
-msgstr "يصمّم Crumb & Co. Studio أدوات رقمية عملية لمن يخبزون في المنزل ويبيعون ما يصنعونه — الكعك والبسكويت والخبز وكل ما بينها."
-
-msgid "Why we started"
-msgstr "لماذا بدأنا"
-
-msgid "[Placeholder — tell your own story here: who you are, how you came to baking, and why you decided to make these tools. Keep it true and personal.]"
-msgstr "[محتوى مؤقت — اكتب قصتك هنا: من أنت، وكيف بدأت رحلتك مع الخَبز، ولماذا قررت صنع هذه الأدوات. اجعلها صادقة وشخصية.]"
-
-msgid "What we make"
-msgstr "ماذا نصنع"
-
-msgid "We keep the range small on purpose. Each product does one job well: tracking orders, adding up costs, getting ready to launch, or planning what to post. No giant bundles you will never open."
-msgstr "نُبقي مجموعتنا صغيرة عن قصد. كل منتج يؤدي مهمة واحدة بإتقان: تتبّع الطلبات، أو جمع التكاليف، أو الاستعداد للإطلاق، أو التخطيط لما تنشره. لا حِزم ضخمة لن تفتحها أبدًا."
-
-msgid "What we believe"
-msgstr "ما نؤمن به"
-
-msgid "<strong>Practical over pretty.</strong> Every template is built around a real task, then made to look good."
-msgstr "<strong>العملي قبل الجميل.</strong> كل قالب مبني حول مهمة حقيقية، ثم نعتني بمظهره."
-
-msgid "<strong>Yours to edit.</strong> Files open in common software, and you can change anything to fit your bakery."
-msgstr "<strong>لك أن تعدّلها.</strong> تُفتح الملفات في برامج شائعة، ويمكنك تغيير أي شيء ليناسب مخبزك."
-
-msgid "<strong>Honest promises.</strong> Our tools help you get organised. They do not guarantee sales, prices or profit — your skill and your customers do the rest."
-msgstr "<strong>وعود صادقة.</strong> أدواتنا تساعدك على التنظيم. لا تضمن مبيعات أو أسعارًا أو أرباحًا — مهارتك وعملاؤك يتكفّلون بالباقي."
-
-msgid "<strong>Small and focused.</strong> We add new tools slowly, based on what home bakers actually ask for."
-msgstr "<strong>صغير ومركّز.</strong> نضيف أدوات جديدة ببطء، بناءً على ما يطلبه الخبّازون في المنزل فعلًا."
-
-msgid "Say hello"
-msgstr "قل مرحبًا"
-
-msgid "Have an idea for a tool, or a question about a product? <a href=\"%s\">Get in touch</a> — we read every message."
-msgstr "لديك فكرة لأداة، أو سؤال عن منتج؟ <a href=\"%s\">تواصل معنا</a> — نقرأ كل رسالة."
-
-msgid "Questions about a product, a download that will not open, or an idea for a new tool? Send us a message."
-msgstr "لديك سؤال عن منتج، أو تنزيل لا يُفتح، أو فكرة لأداة جديدة؟ أرسل لنا رسالة."
-
-msgid "Support"
-msgstr "الدعم"
-
-msgid "Email:"
-msgstr "البريد الإلكتروني:"
-
-msgid "Usual reply time: [Placeholder — e.g. within 2 business days]"
-msgstr "مدة الرد المعتادة: [محتوى مؤقت — مثلًا خلال يومي عمل]"
-
-msgid "Help with an order"
-msgstr "المساعدة في طلب"
-
-msgid "Include your order number"
-msgstr "اذكر رقم طلبك"
-
-msgid "Tell us which file and which software you are using"
-msgstr "أخبرنا بالملف والبرنامج الذي تستخدمه"
-
-msgid "A screenshot of any error message helps"
-msgstr "لقطة شاشة لرسالة الخطأ تساعدنا"
-
-msgid "Looking for your files? They are in <a href=\"%s\">My Account → Downloads</a>."
-msgstr "تبحث عن ملفاتك؟ ستجدها في <a href=\"%s\">حسابي ← التنزيلات</a>."
-
-msgid "Quick answers about buying, downloading and editing our templates. Cannot find what you need? Contact us any time."
-msgstr "إجابات سريعة عن شراء قوالبنا وتنزيلها وتعديلها. لم تجد ما تحتاجه؟ تواصل معنا في أي وقت."
-
-msgid "Buying & downloading"
-msgstr "الشراء والتنزيل"
-
-msgid "Is anything shipped to me?"
-msgstr "هل سيُشحن إليّ أي شيء؟"
-
-msgid "No. Every product is a digital download. Nothing physical is printed or posted, so there are no shipping costs or delivery times."
-msgstr "لا. كل منتج تنزيل رقمي. لا يُطبع أو يُرسل أي شيء مادي، لذلك لا توجد تكاليف شحن أو مدة توصيل."
-
-msgid "How do I get my files after paying?"
-msgstr "كيف أحصل على ملفاتي بعد الدفع؟"
-
-msgid "As soon as your payment is confirmed, download links appear on the order confirmation page. We also email them to you, and they stay available in <a href=\"%s\">My Account → Downloads</a>."
-msgstr "بمجرد تأكيد الدفع، تظهر روابط التنزيل في صفحة تأكيد الطلب. نرسلها إليك أيضًا عبر البريد الإلكتروني، وتبقى متاحة في <a href=\"%s\">حسابي ← التنزيلات</a>."
-
-msgid "Do I need an account?"
-msgstr "هل أحتاج إلى حساب؟"
-
-msgid "Creating an account at checkout is the easiest way to find your downloads again later. Your order email also contains your download links."
-msgstr "إنشاء حساب عند الدفع هو أسهل طريقة للعثور على تنزيلاتك لاحقًا. كما يحتوي بريد طلبك على روابط التنزيل."
-
-msgid "How many times can I download a file?"
-msgstr "كم مرة يمكنني تنزيل الملف؟"
-
-msgid "[Placeholder — state your download limit and link expiry, for example \"unlimited downloads for 12 months\". Match this to the settings on each product.]"
-msgstr "[محتوى مؤقت — اذكر حد التنزيل ومدة صلاحية الرابط، مثلًا «تنزيلات غير محدودة لمدة 12 شهرًا». اجعل ذلك مطابقًا لإعدادات كل منتج.]"
-
-msgid "Which payment methods do you accept?"
-msgstr "ما طرق الدفع التي تقبلونها؟"
-
-msgid "[Placeholder — list the payment methods you enable in WooCommerce → Settings → Payments.]"
-msgstr "[محتوى مؤقت — اذكر طرق الدفع التي تفعّلها في WooCommerce ← الإعدادات ← المدفوعات.]"
-
-msgid "Opening & editing"
-msgstr "الفتح والتعديل"
-
-msgid "What software do I need?"
-msgstr "ما البرنامج الذي أحتاجه؟"
-
-msgid "Spreadsheets (.xlsx) open in Microsoft Excel, Google Sheets (free) and LibreOffice Calc (free). Documents (.docx) open in Microsoft Word, Google Docs and LibreOffice Writer. Printables (.pdf) open in any PDF reader. Each product page lists its exact files."
-msgstr "تُفتح جداول البيانات (‎.xlsx) في Microsoft Excel وGoogle Sheets (مجاني) وLibreOffice Calc (مجاني). وتُفتح المستندات (‎.docx) في Microsoft Word وGoogle Docs وLibreOffice Writer. وتُفتح الملفات القابلة للطباعة (‎.pdf) في أي قارئ PDF. تعرض كل صفحة منتج ملفاته بدقة."
-
-msgid "Can I use the files on my phone?"
-msgstr "هل يمكنني استخدام الملفات على هاتفي؟"
-
-msgid "You can view and make small edits with the Google Sheets, Google Docs or Microsoft apps on a phone. For setting things up the first time, a computer or tablet is more comfortable."
-msgstr "يمكنك عرض الملفات وإجراء تعديلات بسيطة عبر تطبيقات Google Sheets أو Google Docs أو Microsoft على الهاتف. أما الإعداد في المرة الأولى فهو أسهل على الحاسوب أو الجهاز اللوحي."
-
-msgid "Can I change the colours, wording and categories?"
-msgstr "هل يمكنني تغيير الألوان والنصوص والفئات؟"
-
-msgid "Yes. Everything is editable. Example rows are marked so you can delete them once you are ready."
-msgstr "نعم. كل شيء قابل للتعديل. الصفوف التجريبية مميّزة لتتمكن من حذفها عندما تكون جاهزًا."
-
-msgid "What language are the files in?"
-msgstr "ما لغة الملفات؟"
-
+#: inc/task-picker.php:44
+msgid "A month of posts, planned"
+msgstr "شهر كامل من المنشورات، مخطَّط مسبقًا"
+
+#: inc/task-picker.php:104
+msgid "calculated by formula"
+msgstr "تُحسب بمعادلة"
+
+#: inc/task-picker.php:105
+msgid "you type this"
+msgstr "تكتبه أنت"
+
+#: inc/task-picker.php:126
+msgid "Yellow cells are yours to fill in. The sheet adds up your costs; it does not set your price."
+msgstr "الخلايا الصفراء تملؤها أنت. الجدول يجمع تكاليفك ولا يحدد سعرك."
+
+#: inc/task-picker.php:144
+msgid "25 tasks in six stages, plus the order form, questionnaire and menu as Word documents."
+msgstr "25 مهمة في ست مراحل، مع نموذج الطلب والاستبيان والقائمة كمستندات Word."
+
+#: inc/task-picker.php:159
+msgid "22 prompts across 8 themes, and a month-by-month list of occasions to plan around."
+msgstr "22 فكرة منشور في 8 مواضيع، وقائمة شهرية بالمناسبات التي يمكنك التخطيط لها."
+
+#: inc/task-picker.php:174
+msgid "300 ready rows. The balance due works itself out, and the Summary tab counts orders by status."
+msgstr "300 صف جاهز. يُحسب المبلغ المتبقي تلقائيًا، وتعدّ علامة التبويب Summary الطلبات حسب حالتها."
+
+#: inc/task-picker.php:194
+msgid "Choose a job"
+msgstr "اختر مهمة"
+
+#. translators: %s: file name
+#: inc/task-picker.php:218
+#, php-format
+msgid "Preview of %s with example data"
+msgstr "معاينة %s ببيانات توضيحية"
+
+#: inc/task-picker.php:221
+msgid "Example data"
+msgstr "بيانات توضيحية"
+
+#: inc/task-picker.php:255 patterns/page-faq.php:21
 msgid "The template files are currently in English. Because every label is editable, you can translate headings and lists into your own language."
 msgstr "ملفات القوالب حاليًا باللغة الإنجليزية. ولأن كل عنوان قابل للتعديل، يمكنك ترجمة العناوين والقوائم إلى لغتك."
 
+#: inc/task-picker.php:271
+msgid "Format"
+msgstr "الصيغة"
+
+#: inc/task-picker.php:274
+msgid "Works with"
+msgstr "يعمل مع"
+
+#: inc/task-picker.php:280
+msgid "Add to cart, instant download"
+msgstr "أضف إلى السلة، تنزيل فوري"
+
+#: inc/task-picker.php:282
+msgid "See everything inside"
+msgstr "اطّلع على كل المحتويات"
+
+#: inc/task-picker.php:286
+msgid "Explore the Toolkit"
+msgstr "استكشف مجموعة الأدوات"
+
+#: patterns/bakery-tasks.php:14
+msgid "Made for real bakery tasks"
+msgstr "مصمّمة لمهام المخبز الحقيقية"
+
+#: patterns/bakery-tasks.php:18
+msgid "Running a bakery from home means juggling orders, costs and customers between batches. Each tool tackles one of those jobs."
+msgstr "إدارة مخبز من المنزل تعني التوفيق بين الطلبات والتكاليف والعملاء بين دفعة خَبز وأخرى. كل أداة تتولّى واحدة من هذه المهام."
+
+#: patterns/bakery-tasks.php:34
+msgid "Track who ordered what, when it's due, what's been paid and what's still to bake — in one sheet instead of scattered messages."
+msgstr "سجّل من طلب ماذا، وموعد التسليم، وما تم دفعه، وما بقي للخَبز — في جدول واحد بدلًا من رسائل متفرقة."
+
+#: patterns/bakery-tasks.php:38
+msgid "Order tools"
+msgstr "أدوات الطلبات"
+
+#: patterns/bakery-tasks.php:52
+msgid "Add up ingredients, packaging and your time so you can see your real costs before you set a price."
+msgstr "اجمع تكاليف المكونات والتغليف ووقتك لتعرف تكاليفك الحقيقية قبل أن تحدد السعر."
+
+#: patterns/bakery-tasks.php:56
+msgid "Pricing tools"
+msgstr "أدوات التسعير"
+
+#: patterns/bakery-tasks.php:70
+msgid "An order form, customer questionnaire, menu and launch checklist so you don't start from a blank page."
+msgstr "نموذج طلب، واستبيان للعملاء، وقائمة منتجات، وقائمة مهام للإطلاق حتى لا تبدأ من صفحة فارغة."
+
+#: patterns/bakery-tasks.php:74
+msgid "Launch tools"
+msgstr "أدوات الإطلاق"
+
+#: patterns/bakery-tasks.php:88
+msgid "Plan a month of posts around your products and the seasons, with prompts for the days ideas run dry."
+msgstr "خطّط لشهر من المنشورات حول منتجاتك والمواسم، مع أفكار جاهزة للأيام التي تنضب فيها الأفكار."
+
+#: patterns/bakery-tasks.php:92
+msgid "Marketing tools"
+msgstr "أدوات التسويق"
+
+#: patterns/digital-notice.php:13
+msgid "Digital downloads only"
+msgstr "تنزيلات رقمية فقط"
+
+#: patterns/digital-notice.php:13
+msgid "Every product is a file you download. Nothing physical is printed or shipped."
+msgstr "كل منتج ملف تقوم بتنزيله. لا يُطبع أو يُشحن أي شيء مادي."
+
+#: patterns/digital-notice.php:17
+msgid "Instant access"
+msgstr "وصول فوري"
+
+#: patterns/digital-notice.php:17
+msgid "Download links appear on your order confirmation, in your email and in My Account → Downloads."
+msgstr "تظهر روابط التنزيل في تأكيد الطلب، وفي بريدك الإلكتروني، وفي حسابي ← التنزيلات."
+
+#: patterns/digital-notice.php:21
+msgid "Help when you need it"
+msgstr "مساعدة عند الحاجة"
+
+#. translators: %s: contact page URL
+#: patterns/digital-notice.php:21
+#, php-format
+msgid "Trouble downloading or opening a file? <a href=\"%s\">Contact support</a> and include your order number."
+msgstr "تواجه مشكلة في تنزيل ملف أو فتحه؟ <a href=\"%s\">تواصل مع الدعم</a> واذكر رقم طلبك."
+
+#: patterns/featured-products.php:15
+msgid "Four focused tools. No fluff."
+msgstr "أربع أدوات مركّزة. بلا حشو."
+
+#: patterns/featured-products.php:20
+msgid "See all products"
+msgstr "عرض كل المنتجات"
+
+#: patterns/feedback-placeholder.php:14
+msgid "Words from bakers using the toolkit"
+msgstr "كلمات من خبّازين يستخدمون مجموعة الأدوات"
+
+#: patterns/feedback-placeholder.php:18
+msgid "We are a new shop, so we have not collected feedback yet. These spaces are saved for real comments from customers, shared with their permission."
+msgstr "متجرنا جديد، لذا لم نجمع آراء بعد. هذه المساحات محجوزة لتعليقات حقيقية من العملاء تُنشر بإذنهم."
+
+#: patterns/feedback-placeholder.php:25
+msgid "Placeholder"
+msgstr "محتوى مؤقت"
+
+#: patterns/feedback-placeholder.php:29
+msgid "[Add a real customer comment here, in their own words, once they have agreed to share it.]"
+msgstr "[أضف هنا تعليقًا حقيقيًا لأحد العملاء بكلماته، بعد موافقته على نشره.]"
+
+#: patterns/feedback-placeholder.php:33
+msgid "[First name] · [Type of bakery] · [Product used]"
+msgstr "[الاسم الأول] · [نوع المخبز] · [المنتج المستخدم]"
+
+#: patterns/free-sample-signup.php:16
+msgid "Preview of the free one-page printable order tracker"
+msgstr "معاينة متتبع الطلبات المجاني القابل للطباعة في صفحة واحدة"
+
+#: patterns/free-sample-signup.php:22
+msgid "Try the one-page order tracker"
+msgstr "جرّب متتبع الطلبات في صفحة واحدة"
+
+#: patterns/free-sample-signup.php:26
+msgid "A simple printable sheet for a week of orders: customer, item, pickup time, price, deposit and status. Join our email list and the download link appears right away."
+msgstr "ورقة بسيطة قابلة للطباعة لطلبات أسبوع كامل: العميل، والمنتج، ووقت الاستلام، والسعر، والعربون، والحالة. انضم إلى قائمتنا البريدية ليظهر رابط التنزيل فورًا."
+
+#: patterns/hero.php:14
+msgid "What is taking most of your time this week?"
+msgstr "ما الذي يأخذ معظم وقتك هذا الأسبوع؟"
+
+#: patterns/hero.php:18
+msgid "Pick the job. You will see the template that handles it, with example data, before you buy. Every tool is an editable file you download straight away."
+msgstr "اختر المهمة، وسترى القالب الذي يتولاها ببيانات توضيحية قبل الشراء. كل أداة ملف قابل للتعديل تنزّله فورًا."
+
+#: patterns/how-it-works.php:14
+msgid "Three steps, then back to baking"
+msgstr "ثلاث خطوات، ثم العودة إلى الخَبز"
+
+#. translators: %s: step number
+#: patterns/how-it-works.php:26 patterns/how-it-works.php:44
+#: patterns/how-it-works.php:62
+#, php-format
+msgid "Step %s"
+msgstr "الخطوة %s"
+
+#: patterns/how-it-works.php:30
+msgid "Choose a tool"
+msgstr "اختر أداة"
+
+#: patterns/how-it-works.php:34
+msgid "Pick the template that fits the job in front of you. Each product page lists exactly which files are included and what software opens them."
+msgstr "اختر القالب المناسب للمهمة التي أمامك. تعرض كل صفحة منتج الملفات المضمّنة بدقة والبرامج التي تفتحها."
+
+#: patterns/how-it-works.php:48
+msgid "Download it"
+msgstr "نزّلها"
+
+#: patterns/how-it-works.php:52
+msgid "Pay securely and your download links appear straight away on the order confirmation page, in your email and in My Account → Downloads."
+msgstr "ادفع بأمان وستظهر روابط التنزيل فورًا في صفحة تأكيد الطلب، وفي بريدك الإلكتروني، وفي حسابي ← التنزيلات."
+
+#: patterns/how-it-works.php:66
+msgid "Customise it"
+msgstr "خصّصها"
+
+#: patterns/how-it-works.php:70
+msgid "Open the file in Excel, Google Sheets, Word, Google Docs or LibreOffice. Change the wording, colours and categories to match your bakery."
+msgstr "افتح الملف في Excel أو Google Sheets أو Word أو Google Docs أو LibreOffice. غيّر النصوص والألوان والفئات لتناسب مخبزك."
+
+#: patterns/how-it-works.php:79
+msgid "Digital products only."
+msgstr "منتجات رقمية فقط."
+
+#: patterns/how-it-works.php:79
+msgid "You receive files to download — no physical items are printed or shipped."
+msgstr "تحصل على ملفات للتنزيل — لا تُطبع أو تُشحن أي منتجات مادية."
+
+#: patterns/not-found.php:10
+msgid "This page has crumbled"
+msgstr "تفتّتت هذه الصفحة"
+
+#: patterns/not-found.php:14
+msgid "The page you were looking for is not here. Try searching the toolkit or head back to the shop."
+msgstr "الصفحة التي تبحث عنها غير موجودة. جرّب البحث في مجموعة الأدوات أو عُد إلى المتجر."
+
+#: patterns/page-about.php:10
+msgid "Crumb & Co. Studio makes practical digital tools for people who bake from home and sell what they make — cakes, cookies, breads and everything in between."
+msgstr "يصمّم Crumb & Co. Studio أدوات رقمية عملية لمن يخبزون في المنزل ويبيعون ما يصنعونه — الكعك والبسكويت والخبز وكل ما بينها."
+
+#: patterns/page-about.php:11
+msgid "Why we started"
+msgstr "لماذا بدأنا"
+
+#: patterns/page-about.php:12
+msgid "[Placeholder — tell your own story here: who you are, how you came to baking, and why you decided to make these tools. Keep it true and personal.]"
+msgstr "[محتوى مؤقت — اكتب قصتك هنا: من أنت، وكيف بدأت رحلتك مع الخَبز، ولماذا قررت صنع هذه الأدوات. اجعلها صادقة وشخصية.]"
+
+#: patterns/page-about.php:13
+msgid "What we make"
+msgstr "ماذا نصنع"
+
+#: patterns/page-about.php:14
+msgid "We keep the range small on purpose. Each product does one job well: tracking orders, adding up costs, getting ready to launch, or planning what to post. No giant bundles you will never open."
+msgstr "نُبقي مجموعتنا صغيرة عن قصد. كل منتج يؤدي مهمة واحدة بإتقان: تتبّع الطلبات، أو جمع التكاليف، أو الاستعداد للإطلاق، أو التخطيط لما تنشره. لا حِزم ضخمة لن تفتحها أبدًا."
+
+#: patterns/page-about.php:15
+msgid "What we believe"
+msgstr "ما نؤمن به"
+
+#: patterns/page-about.php:17
+msgid "<strong>Practical over pretty.</strong> Every template is built around a real task, then made to look good."
+msgstr "<strong>العملي قبل الجميل.</strong> كل قالب مبني حول مهمة حقيقية، ثم نعتني بمظهره."
+
+#: patterns/page-about.php:18
+msgid "<strong>Yours to edit.</strong> Files open in common software, and you can change anything to fit your bakery."
+msgstr "<strong>لك أن تعدّلها.</strong> تُفتح الملفات في برامج شائعة، ويمكنك تغيير أي شيء ليناسب مخبزك."
+
+#: patterns/page-about.php:19
+msgid "<strong>Honest promises.</strong> Our tools help you get organised. They do not guarantee sales, prices or profit — your skill and your customers do the rest."
+msgstr "<strong>وعود صادقة.</strong> أدواتنا تساعدك على التنظيم. لا تضمن مبيعات أو أسعارًا أو أرباحًا — مهارتك وعملاؤك يتكفّلون بالباقي."
+
+#: patterns/page-about.php:20
+msgid "<strong>Small and focused.</strong> We add new tools slowly, based on what home bakers actually ask for."
+msgstr "<strong>صغير ومركّز.</strong> نضيف أدوات جديدة ببطء، بناءً على ما يطلبه الخبّازون في المنزل فعلًا."
+
+#: patterns/page-about.php:22
+msgid "Say hello"
+msgstr "قل مرحبًا"
+
+#. translators: %s: contact page URL
+#: patterns/page-about.php:23
+#, php-format
+msgid "Have an idea for a tool, or a question about a product? <a href=\"%s\">Get in touch</a> — we read every message."
+msgstr "لديك فكرة لأداة، أو سؤال عن منتج؟ <a href=\"%s\">تواصل معنا</a> — نقرأ كل رسالة."
+
+#: patterns/page-contact.php:10
+msgid "Questions about a product, a download that will not open, or an idea for a new tool? Send us a message."
+msgstr "لديك سؤال عن منتج، أو تنزيل لا يُفتح، أو فكرة لأداة جديدة؟ أرسل لنا رسالة."
+
+#: patterns/page-contact.php:21
+msgid "Support"
+msgstr "الدعم"
+
+#: patterns/page-contact.php:22
+msgid "Email:"
+msgstr "البريد الإلكتروني:"
+
+#: patterns/page-contact.php:23
+msgid "Usual reply time: [Placeholder — e.g. within 2 business days]"
+msgstr "مدة الرد المعتادة: [محتوى مؤقت — مثلًا خلال يومي عمل]"
+
+#: patterns/page-contact.php:24
+msgid "Help with an order"
+msgstr "المساعدة في طلب"
+
+#: patterns/page-contact.php:26
+msgid "Include your order number"
+msgstr "اذكر رقم طلبك"
+
+#: patterns/page-contact.php:27
+msgid "Tell us which file and which software you are using"
+msgstr "أخبرنا بالملف والبرنامج الذي تستخدمه"
+
+#: patterns/page-contact.php:28
+msgid "A screenshot of any error message helps"
+msgstr "لقطة شاشة لرسالة الخطأ تساعدنا"
+
+#. translators: %s: my account URL
+#: patterns/page-contact.php:30
+#, php-format
+msgid "Looking for your files? They are in <a href=\"%s\">My Account → Downloads</a>."
+msgstr "تبحث عن ملفاتك؟ ستجدها في <a href=\"%s\">حسابي ← التنزيلات</a>."
+
+#: patterns/page-faq.php:10
+msgid "Quick answers about buying, downloading and editing our templates. Cannot find what you need? Contact us any time."
+msgstr "إجابات سريعة عن شراء قوالبنا وتنزيلها وتعديلها. لم تجد ما تحتاجه؟ تواصل معنا في أي وقت."
+
+#: patterns/page-faq.php:11
+msgid "Buying & downloading"
+msgstr "الشراء والتنزيل"
+
+#: patterns/page-faq.php:12
+msgid "Is anything shipped to me?"
+msgstr "هل سيُشحن إليّ أي شيء؟"
+
+#: patterns/page-faq.php:12
+msgid "No. Every product is a digital download. Nothing physical is printed or posted, so there are no shipping costs or delivery times."
+msgstr "لا. كل منتج تنزيل رقمي. لا يُطبع أو يُرسل أي شيء مادي، لذلك لا توجد تكاليف شحن أو مدة توصيل."
+
+#: patterns/page-faq.php:13
+msgid "How do I get my files after paying?"
+msgstr "كيف أحصل على ملفاتي بعد الدفع؟"
+
+#. translators: %s: my account URL
+#: patterns/page-faq.php:13
+#, php-format
+msgid "As soon as your payment is confirmed, download links appear on the order confirmation page. We also email them to you, and they stay available in <a href=\"%s\">My Account → Downloads</a>."
+msgstr "بمجرد تأكيد الدفع، تظهر روابط التنزيل في صفحة تأكيد الطلب. نرسلها إليك أيضًا عبر البريد الإلكتروني، وتبقى متاحة في <a href=\"%s\">حسابي ← التنزيلات</a>."
+
+#: patterns/page-faq.php:14
+msgid "Do I need an account?"
+msgstr "هل أحتاج إلى حساب؟"
+
+#: patterns/page-faq.php:14
+msgid "Creating an account at checkout is the easiest way to find your downloads again later. Your order email also contains your download links."
+msgstr "إنشاء حساب عند الدفع هو أسهل طريقة للعثور على تنزيلاتك لاحقًا. كما يحتوي بريد طلبك على روابط التنزيل."
+
+#: patterns/page-faq.php:15
+msgid "How many times can I download a file?"
+msgstr "كم مرة يمكنني تنزيل الملف؟"
+
+#: patterns/page-faq.php:15
+msgid "[Placeholder — state your download limit and link expiry, for example \"unlimited downloads for 12 months\". Match this to the settings on each product.]"
+msgstr "[محتوى مؤقت — اذكر حد التنزيل ومدة صلاحية الرابط، مثلًا «تنزيلات غير محدودة لمدة 12 شهرًا». اجعل ذلك مطابقًا لإعدادات كل منتج.]"
+
+#: patterns/page-faq.php:16
+msgid "Which payment methods do you accept?"
+msgstr "ما طرق الدفع التي تقبلونها؟"
+
+#: patterns/page-faq.php:16
+msgid "[Placeholder — list the payment methods you enable in WooCommerce → Settings → Payments.]"
+msgstr "[محتوى مؤقت — اذكر طرق الدفع التي تفعّلها في WooCommerce ← الإعدادات ← المدفوعات.]"
+
+#: patterns/page-faq.php:17
+msgid "Opening & editing"
+msgstr "الفتح والتعديل"
+
+#: patterns/page-faq.php:18
+msgid "What software do I need?"
+msgstr "ما البرنامج الذي أحتاجه؟"
+
+#: patterns/page-faq.php:18
+msgid "Spreadsheets (.xlsx) open in Microsoft Excel, Google Sheets (free) and LibreOffice Calc (free). Documents (.docx) open in Microsoft Word, Google Docs and LibreOffice Writer. Printables (.pdf) open in any PDF reader. Each product page lists its exact files."
+msgstr "تُفتح جداول البيانات (‎.xlsx) في Microsoft Excel وGoogle Sheets (مجاني) وLibreOffice Calc (مجاني). وتُفتح المستندات (‎.docx) في Microsoft Word وGoogle Docs وLibreOffice Writer. وتُفتح الملفات القابلة للطباعة (‎.pdf) في أي قارئ PDF. تعرض كل صفحة منتج ملفاته بدقة."
+
+#: patterns/page-faq.php:19
+msgid "Can I use the files on my phone?"
+msgstr "هل يمكنني استخدام الملفات على هاتفي؟"
+
+#: patterns/page-faq.php:19
+msgid "You can view and make small edits with the Google Sheets, Google Docs or Microsoft apps on a phone. For setting things up the first time, a computer or tablet is more comfortable."
+msgstr "يمكنك عرض الملفات وإجراء تعديلات بسيطة عبر تطبيقات Google Sheets أو Google Docs أو Microsoft على الهاتف. أما الإعداد في المرة الأولى فهو أسهل على الحاسوب أو الجهاز اللوحي."
+
+#: patterns/page-faq.php:20
+msgid "Can I change the colours, wording and categories?"
+msgstr "هل يمكنني تغيير الألوان والنصوص والفئات؟"
+
+#: patterns/page-faq.php:20
+msgid "Yes. Everything is editable. Example rows are marked so you can delete them once you are ready."
+msgstr "نعم. كل شيء قابل للتعديل. الصفوف التجريبية مميّزة لتتمكن من حذفها عندما تكون جاهزًا."
+
+#: patterns/page-faq.php:21
+msgid "What language are the files in?"
+msgstr "ما لغة الملفات؟"
+
+#: patterns/page-faq.php:22
 msgid "Will the pricing calculator tell me what to charge?"
 msgstr "هل ستخبرني حاسبة التسعير بالسعر الذي أطلبه؟"
 
+#: patterns/page-faq.php:22
 msgid "No. It helps you add up your own costs and test the effect of a markup you choose. Your prices are your decision, based on your market and your goals."
 msgstr "لا. تساعدك على جمع تكاليفك وتجربة أثر نسبة ربح تختارها أنت. أسعارك قرارك، بناءً على سوقك وأهدافك."
 
+#: patterns/page-faq.php:23
 msgid "Licence, refunds & help"
 msgstr "الترخيص والاسترداد والمساعدة"
 
+#: patterns/page-faq.php:24
 msgid "Can I share or resell the templates?"
 msgstr "هل يمكنني مشاركة القوالب أو إعادة بيعها؟"
 
+#. translators: %s: terms page URL
+#: patterns/page-faq.php:24
+#, php-format
 msgid "You may use them for your own bakery business. Please do not share, resell or redistribute the files. See our <a href=\"%s\">Terms</a> for details."
 msgstr "يمكنك استخدامها لمشروع المخبز الخاص بك. يُرجى عدم مشاركة الملفات أو إعادة بيعها أو توزيعها. راجع <a href=\"%s\">الشروط</a> لمزيد من التفاصيل."
 
+#: patterns/page-faq.php:25
 msgid "What if a file does not open or something is missing?"
 msgstr "ماذا لو لم يُفتح ملف أو كان هناك شيء ناقص؟"
 
+#. translators: %s: contact page URL
+#: patterns/page-faq.php:25
+#, php-format
 msgid "<a href=\"%s\">Contact us</a> with your order number and a short description of the problem. We will help you get it working or send a corrected file."
 msgstr "<a href=\"%s\">تواصل معنا</a> مع رقم طلبك ووصف قصير للمشكلة. سنساعدك على تشغيله أو نرسل لك ملفًا مصحّحًا."
 
+#: patterns/page-faq.php:26
 msgid "Can I get a refund?"
 msgstr "هل يمكنني استرداد المبلغ؟"
 
+#. translators: %s: refund policy URL
+#: patterns/page-faq.php:26
+#, php-format
 msgid "Please read our <a href=\"%s\">Digital Download & Refund Policy</a> before you buy. It explains when refunds are possible for digital products."
 msgstr "يُرجى قراءة <a href=\"%s\">سياسة التنزيل الرقمي والاسترداد</a> قبل الشراء. فهي توضّح متى يمكن الاسترداد في المنتجات الرقمية."
 
+#: patterns/page-privacy-policy.php:10
 msgid "Template notice: this privacy policy is a starting point, not legal advice. Complete every [placeholder], list the services you actually use, and have it reviewed for the privacy laws that apply to you. WordPress also offers a privacy policy guide under Settings → Privacy."
 msgstr "تنبيه حول القالب: سياسة الخصوصية هذه نقطة بداية وليست استشارة قانونية. أكمل كل [محتوى مؤقت]، واذكر الخدمات التي تستخدمها فعلًا، واطلب مراجعتها وفق قوانين الخصوصية المطبّقة عليك. يوفّر ووردبريس أيضًا دليلًا لسياسة الخصوصية في الإعدادات ← الخصوصية."
 
+#: patterns/page-privacy-policy.php:11 patterns/page-refund-policy.php:11
+#: patterns/page-terms.php:11
 msgid "Last updated: [date]"
 msgstr "آخر تحديث: [التاريخ]"
 
+#: patterns/page-privacy-policy.php:12
 msgid "Who we are"
 msgstr "من نحن"
 
+#: patterns/page-privacy-policy.php:13
 msgid "This website is run by [Business name], [business address or country]. Contact: [support email]."
 msgstr "يدير هذا الموقع [اسم النشاط التجاري]، [عنوان النشاط أو البلد]. للتواصل: [بريد الدعم]."
 
+#: patterns/page-privacy-policy.php:14
 msgid "What we collect"
 msgstr "ما البيانات التي نجمعها"
 
+#: patterns/page-privacy-policy.php:16
 msgid "<strong>Orders:</strong> your name, email address, billing details needed by the payment provider, and what you bought."
 msgstr "<strong>الطلبات:</strong> اسمك وبريدك الإلكتروني وبيانات الفوترة التي يطلبها مزوّد الدفع وما اشتريته."
 
+#: patterns/page-privacy-policy.php:17
 msgid "<strong>Account:</strong> if you create an account, your login details and order history."
 msgstr "<strong>الحساب:</strong> إذا أنشأت حسابًا، بيانات تسجيل الدخول وسجل طلباتك."
 
+#: patterns/page-privacy-policy.php:18
 msgid "<strong>Email list:</strong> if you sign up for the free sample or newsletter, your email address and the date you joined."
 msgstr "<strong>القائمة البريدية:</strong> إذا اشتركت للحصول على العيّنة المجانية أو النشرة الإخبارية، بريدك الإلكتروني وتاريخ اشتراكك."
 
+#: patterns/page-privacy-policy.php:19
 msgid "<strong>Contact form:</strong> the name, email address and message you send us."
 msgstr "<strong>نموذج التواصل:</strong> الاسم والبريد الإلكتروني والرسالة التي ترسلها إلينا."
 
+#: patterns/page-privacy-policy.php:20
 msgid "<strong>Technical data:</strong> cookies needed for the cart, checkout and login to work. [Add any analytics tools you use.]"
 msgstr "<strong>البيانات التقنية:</strong> ملفات تعريف الارتباط اللازمة لعمل السلة والدفع وتسجيل الدخول. [أضف أي أدوات تحليل تستخدمها.]"
 
+#: patterns/page-privacy-policy.php:22
 msgid "How we use it"
 msgstr "كيف نستخدمها"
 
+#: patterns/page-privacy-policy.php:23
 msgid "To process your order and deliver your downloads, provide support, send emails you asked for, and keep the website secure. [Add any other purposes.]"
 msgstr "لمعالجة طلبك وتسليم تنزيلاتك، وتقديم الدعم، وإرسال الرسائل التي طلبتها، والحفاظ على أمان الموقع. [أضف أي أغراض أخرى.]"
 
+#: patterns/page-privacy-policy.php:24
 msgid "Payments"
 msgstr "المدفوعات"
 
+#: patterns/page-privacy-policy.php:25
 msgid "Payments are handled by [payment provider]. We do not store your full card details on this website. See [payment provider]’s privacy policy for how they handle your data."
 msgstr "تتم معالجة المدفوعات عبر [مزوّد الدفع]. لا نخزّن بيانات بطاقتك كاملة على هذا الموقع. راجع سياسة خصوصية [مزوّد الدفع] لمعرفة كيفية تعامله مع بياناتك."
 
+#: patterns/page-privacy-policy.php:26
 msgid "Who we share it with"
 msgstr "مع من نشاركها"
 
+#: patterns/page-privacy-policy.php:27
 msgid "[Placeholder — list service providers such as your hosting company, payment provider and email marketing service.] We do not sell your personal data."
 msgstr "[محتوى مؤقت — اذكر مزوّدي الخدمة مثل شركة الاستضافة ومزوّد الدفع وخدمة التسويق عبر البريد.] نحن لا نبيع بياناتك الشخصية."
 
+#: patterns/page-privacy-policy.php:28
 msgid "How long we keep it"
 msgstr "مدة الاحتفاظ بها"
 
+#: patterns/page-privacy-policy.php:29
 msgid "[Placeholder — e.g. order records for the period required for tax purposes; email list data until you unsubscribe.]"
 msgstr "[محتوى مؤقت — مثلًا سجلات الطلبات للمدة المطلوبة لأغراض ضريبية؛ وبيانات القائمة البريدية حتى إلغاء اشتراكك.]"
 
+#: patterns/page-privacy-policy.php:30
 msgid "Your choices and rights"
 msgstr "خياراتك وحقوقك"
 
+#: patterns/page-privacy-policy.php:31
 msgid "You can unsubscribe from emails at any time and ask us to access, correct or delete your personal data, subject to legal record-keeping requirements. Contact [support email]."
 msgstr "يمكنك إلغاء الاشتراك في الرسائل في أي وقت، وطلب الاطلاع على بياناتك الشخصية أو تصحيحها أو حذفها، مع مراعاة متطلبات الحفظ القانونية. للتواصل: [بريد الدعم]."
 
+#: patterns/page-refund-policy.php:10
 msgid "Template notice: this policy is a starting point, not legal advice. Fill in every [placeholder] and check it against the consumer laws that apply to you and your customers before publishing."
 msgstr "تنبيه حول القالب: هذه السياسة نقطة بداية وليست استشارة قانونية. أكمل كل [محتوى مؤقت] وتحقّق منها وفق قوانين حماية المستهلك المطبّقة عليك وعلى عملائك قبل نشرها."
 
+#: patterns/page-refund-policy.php:12
 msgid "What you are buying"
 msgstr "ما الذي تشتريه"
 
+#: patterns/page-refund-policy.php:13
 msgid "All products sold by [Business name] are digital files (such as spreadsheets, documents and PDFs). No physical products are printed or shipped."
 msgstr "جميع المنتجات التي يبيعها [اسم النشاط التجاري] ملفات رقمية (مثل جداول البيانات والمستندات وملفات PDF). لا تُطبع أو تُشحن أي منتجات مادية."
 
+#: patterns/page-refund-policy.php:14
 msgid "Delivery"
 msgstr "التسليم"
 
+#: patterns/page-refund-policy.php:15
 msgid "After your payment is confirmed, download links are shown on the order confirmation page, sent to the email address you provide, and kept in My Account → Downloads if you created an account."
 msgstr "بعد تأكيد الدفع، تُعرض روابط التنزيل في صفحة تأكيد الطلب، وتُرسل إلى بريدك الإلكتروني، وتبقى في حسابي ← التنزيلات إذا أنشأت حسابًا."
 
+#: patterns/page-refund-policy.php:16
 msgid "Download limits: [Placeholder — e.g. unlimited downloads / X downloads, available for X days]."
 msgstr "حدود التنزيل: [محتوى مؤقت — مثلًا تنزيلات غير محدودة / عدد X من التنزيلات، متاحة لمدة X يومًا]."
 
+#: patterns/page-refund-policy.php:17
 msgid "Before you buy"
 msgstr "قبل الشراء"
 
+#: patterns/page-refund-policy.php:18
 msgid "Each product page lists the included files and compatible software. Please check these details, or ask us, before purchasing."
 msgstr "تعرض كل صفحة منتج الملفات المضمّنة والبرامج المتوافقة. يُرجى التحقق من هذه التفاصيل، أو سؤالنا، قبل الشراء."
 
+#: patterns/page-refund-policy.php:19
 msgid "Problems with a file"
 msgstr "مشكلات في ملف"
 
+#: patterns/page-refund-policy.php:20
 msgid "If a file is faulty, will not open in the listed software, or does not match its description, contact us within [X days] of purchase with your order number. We will first try to fix the problem or send a replacement file."
 msgstr "إذا كان الملف تالفًا، أو لا يُفتح في البرنامج المذكور، أو لا يطابق وصفه، فتواصل معنا خلال [X يومًا] من الشراء مع رقم طلبك. سنحاول أولًا حل المشكلة أو إرسال ملف بديل."
 
+#: patterns/page-refund-policy.php:21
 msgid "Refunds"
 msgstr "الاسترداد"
 
+#: patterns/page-refund-policy.php:22
 msgid "[Placeholder — describe your refund policy for digital products, for example when a refund is offered, when it is not, and how long it takes. Make sure it respects any statutory rights your customers have.]"
 msgstr "[محتوى مؤقت — صف سياسة الاسترداد للمنتجات الرقمية، مثلًا متى يُتاح الاسترداد ومتى لا يُتاح وكم يستغرق. تأكد من أنها تحترم أي حقوق قانونية لعملائك.]"
 
+#: patterns/page-refund-policy.php:23
 msgid "Duplicate purchases"
 msgstr "الشراء المكرر"
 
+#: patterns/page-refund-policy.php:24
 msgid "If you accidentally buy the same product twice, contact us within [X days] and we will [Placeholder — e.g. refund the duplicate order]."
 msgstr "إذا اشتريت المنتج نفسه مرتين عن طريق الخطأ، فتواصل معنا خلال [X يومًا] وسنقوم بـ[محتوى مؤقت — مثلًا استرداد قيمة الطلب المكرر]."
 
+#: patterns/page-refund-policy.php:25
 msgid "How to contact us"
 msgstr "كيف تتواصل معنا"
 
+#. translators: %s: contact page URL
+#: patterns/page-refund-policy.php:26
+#, php-format
 msgid "Use our <a href=\"%s\">contact page</a> or email [support email]. Please include your order number."
 msgstr "استخدم <a href=\"%s\">صفحة التواصل</a> أو راسلنا على [بريد الدعم]. يُرجى ذكر رقم طلبك."
 
+#: patterns/page-terms.php:10
 msgid "Template notice: these terms are a starting point, not legal advice. Complete every [placeholder] and have them reviewed for your country before publishing."
 msgstr "تنبيه حول القالب: هذه الشروط نقطة بداية وليست استشارة قانونية. أكمل كل [محتوى مؤقت] واطلب مراجعتها وفق قوانين بلدك قبل نشرها."
 
+#: patterns/page-terms.php:12
 msgid "About these terms"
 msgstr "حول هذه الشروط"
 
+#: patterns/page-terms.php:13
 msgid "These terms apply to purchases from [Business name] through this website. By placing an order you agree to them."
 msgstr "تنطبق هذه الشروط على المشتريات من [اسم النشاط التجاري] عبر هذا الموقع. بتقديم طلب، فإنك توافق عليها."
 
+#: patterns/page-terms.php:14
 msgid "Digital products"
 msgstr "المنتجات الرقمية"
 
+#: patterns/page-terms.php:15
 msgid "All products are digital downloads. No physical items are shipped. Delivery and refunds are described in our Digital Download & Refund Policy."
 msgstr "جميع المنتجات تنزيلات رقمية. لا تُشحن أي منتجات مادية. التسليم والاسترداد موضّحان في سياسة التنزيل الرقمي والاسترداد."
 
+#: patterns/page-terms.php:16
 msgid "Your licence"
 msgstr "ترخيصك"
 
+#: patterns/page-terms.php:18
 msgid "You may use and edit the files for your own bakery business."
 msgstr "يمكنك استخدام الملفات وتعديلها لمشروع المخبز الخاص بك."
 
+#: patterns/page-terms.php:19
 msgid "You may print copies for your own use and give completed forms to your customers."
 msgstr "يمكنك طباعة نسخ لاستخدامك الخاص وتسليم النماذج المعبأة لعملائك."
 
+#: patterns/page-terms.php:20
 msgid "You may not resell, share, give away or upload the template files, or claim them as your own design."
 msgstr "لا يجوز لك إعادة بيع ملفات القوالب أو مشاركتها أو إهداؤها أو رفعها على الإنترنت، أو نسب تصميمها إليك."
 
+#: patterns/page-terms.php:21
 msgid "[Placeholder — add any other licence terms, e.g. use by staff or multiple locations.]"
 msgstr "[محتوى مؤقت — أضف أي شروط ترخيص أخرى، مثل الاستخدام من قِبل الموظفين أو في عدة مواقع.]"
 
+#: patterns/page-terms.php:23
 msgid "Prices and payment"
 msgstr "الأسعار والدفع"
 
+#: patterns/page-terms.php:24
 msgid "Prices are shown at checkout in [currency] and include or exclude taxes as shown. Payment is processed securely by [payment provider]."
 msgstr "تُعرض الأسعار عند الدفع بعملة [العملة]، وتشمل الضرائب أو لا تشملها حسب ما هو موضّح. تتم معالجة الدفع بأمان عبر [مزوّد الدفع]."
 
+#: patterns/page-terms.php:25
 msgid "What our tools do — and do not do"
 msgstr "ما تفعله أدواتنا — وما لا تفعله"
 
+#: patterns/page-terms.php:26
 msgid "Our templates are organisation aids. They do not provide financial, legal, tax or food-safety advice, and we cannot promise any particular sales, prices or profit. You are responsible for checking the figures you enter and for following the rules that apply to your business."
 msgstr "قوالبنا أدوات مساعدة على التنظيم. لا تقدّم استشارات مالية أو قانونية أو ضريبية أو في سلامة الغذاء، ولا يمكننا أن نعد بأي مستوى من المبيعات أو الأسعار أو الأرباح. أنت مسؤول عن التحقق من الأرقام التي تُدخلها والالتزام بالقواعد المطبّقة على نشاطك."
 
+#: patterns/page-terms.php:27
 msgid "Liability"
 msgstr "المسؤولية"
 
+#: patterns/page-terms.php:28
 msgid "[Placeholder — limitation of liability wording appropriate for your country.]"
 msgstr "[محتوى مؤقت — صياغة تحديد المسؤولية المناسبة لبلدك.]"
 
+#: patterns/page-terms.php:29
 msgid "Governing law"
 msgstr "القانون الواجب التطبيق"
 
+#: patterns/page-terms.php:30
 msgid "[Placeholder — the country or state whose laws apply.]"
 msgstr "[محتوى مؤقت — البلد أو الولاية التي تنطبق قوانينها.]"
 
+#: patterns/page-terms.php:31
 msgid "Changes and contact"
 msgstr "التغييرات والتواصل"
 
+#: patterns/page-terms.php:32
 msgid "We may update these terms. The version shown when you placed your order applies to that order. Questions? Contact [support email]."
 msgstr "قد نحدّث هذه الشروط. تنطبق على كل طلب النسخة المعروضة وقت تقديمه. لديك أسئلة؟ راسلنا على [بريد الدعم]."
 
-msgid "What it helps you do"
-msgstr ""
+#~ msgid "Digital downloads for home bakers"
+#~ msgstr "تنزيلات رقمية للخبّازين في المنزل"
 
+#~ msgid "Why these tools exist"
+#~ msgstr "لماذا وُجدت هذه الأدوات"
+
+#~ msgid "The starter toolkit"
+#~ msgstr "مجموعة الأدوات الأساسية"
+
+#~ msgid "Customer feedback"
+#~ msgstr "آراء العملاء"
+
+#~ msgid "Free printable"
+#~ msgstr "ملف مجاني للطباعة"
+
+#~ msgid "Templates & tools for home bakers"
+#~ msgstr "قوالب وأدوات للخبّازين في المنزل"
+
+#~ msgid "Spend less time organizing. More time baking."
+#~ msgstr "وقت أقل في التنظيم. ووقت أكثر في الخَبز."
+
+#~ msgid "Crumb & Co. Studio makes practical, editable templates for home-based bakers: order trackers, cost calculators, launch documents and content planners. Download them, make them yours, and get back to the oven."
+#~ msgstr "يصمّم Crumb & Co. Studio قوالب عملية وقابلة للتعديل للخبّازين الذين يعملون من المنزل: متتبعات الطلبات، وحاسبات التكاليف، ومستندات الإطلاق، ومخططات المحتوى. نزّلها، واجعلها خاصة بك، وعُد إلى الفرن."
+
+#~ msgid "Get the free order tracker"
+#~ msgstr "احصل على متتبع الطلبات المجاني"
+
+#~ msgid "Instant digital download"
+#~ msgstr "تنزيل رقمي فوري"
+
+#~ msgid "Edit in Excel, Google Sheets, Word or Google Docs"
+#~ msgstr "قابلة للتعديل في Excel أو Google Sheets أو Word أو Google Docs"
+
+#~ msgid "Nothing is shipped"
+#~ msgstr "لا يُشحن أي شيء"
+
+#~ msgid "Illustration of a layered cake next to a tablet showing an order list"
+#~ msgstr "رسم توضيحي لكعكة متعددة الطبقات بجانب جهاز لوحي يعرض قائمة طلبات"
+
+#~ msgid "How it works"
+#~ msgstr "كيف يعمل"

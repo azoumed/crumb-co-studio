@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T12:00:00Z",
+  "title": "Design System: Crumb & Co. Studio",
+  "extensions": {
+    "colorMeta": {
+      "cream": { "role": "neutral", "displayName": "Cream", "canonical": "#FBF6EE", "tonalRamp": ["#3F3A33", "#6B6459", "#958C7F", "#BDB3A4", "#DCD2C2", "#EEE6D8", "#FBF6EE", "#FFFDF9"] },
+      "warm-cream": { "role": "neutral", "displayName": "Warm Cream", "canonical": "#F4EADB", "tonalRamp": ["#43392C", "#6E6150", "#998A75", "#C2B29B", "#DFCFB8", "#F4EADB", "#F9F3EA", "#FDFAF5"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#FFFFFF", "tonalRamp": ["#2B2B2B", "#555555", "#808080", "#AAAAAA", "#D4D4D4", "#EAEAEA", "#F6F6F6", "#FFFFFF"] },
+      "cocoa": { "role": "neutral", "displayName": "Cocoa", "canonical": "#3B2A20", "tonalRamp": ["#1E150F", "#3B2A20", "#5A4334", "#7A5F4D", "#9C826F", "#BFA996", "#DDCDBF", "#F3ECE5"] },
+      "soft-cocoa": { "role": "neutral", "displayName": "Soft Cocoa", "canonical": "#6B5546", "tonalRamp": ["#2A2019", "#463629", "#6B5546", "#8A7363", "#A99383", "#C7B5A8", "#E2D6CD", "#F5EFEA"] },
+      "crumb-line": { "role": "neutral", "displayName": "Crumb Line", "canonical": "#E6D9C6", "tonalRamp": ["#3E3528", "#675A47", "#8F806A", "#B5A48C", "#D2C3AD", "#E6D9C6", "#F2EADF", "#FBF8F3"] },
+      "raspberry": { "role": "primary", "displayName": "Raspberry", "canonical": "#B8325A", "tonalRamp": ["#3F0D1D", "#6A1632", "#932446", "#B8325A", "#D4627F", "#E798AC", "#F6DCE3", "#FDF2F5"] },
+      "deep-raspberry": { "role": "primary", "displayName": "Deep Raspberry", "canonical": "#932446", "tonalRamp": ["#3F0D1D", "#6A1632", "#932446", "#B8325A", "#D4627F", "#E798AC", "#F6DCE3", "#FDF2F5"] },
+      "raspberry-cream": { "role": "primary", "displayName": "Raspberry Cream", "canonical": "#F6DCE3", "tonalRamp": ["#3F0D1D", "#6A1632", "#932446", "#B8325A", "#D4627F", "#E798AC", "#F6DCE3", "#FDF2F5"] },
+      "sage": { "role": "secondary", "displayName": "Sage", "canonical": "#7E9C7C", "tonalRamp": ["#1E2A1E", "#344734", "#4F6B4E", "#7E9C7C", "#A2BAA0", "#C6D6C2", "#E3EBDD", "#F4F8F2"] },
+      "deep-sage": { "role": "secondary", "displayName": "Deep Sage", "canonical": "#4F6B4E", "tonalRamp": ["#1E2A1E", "#344734", "#4F6B4E", "#7E9C7C", "#A2BAA0", "#C6D6C2", "#E3EBDD", "#F4F8F2"] },
+      "sage-cream": { "role": "secondary", "displayName": "Sage Cream", "canonical": "#E3EBDD", "tonalRamp": ["#1E2A1E", "#344734", "#4F6B4E", "#7E9C7C", "#A2BAA0", "#C6D6C2", "#E3EBDD", "#F4F8F2"] },
+      "butter": { "role": "tertiary", "displayName": "Butter", "canonical": "#FFF1CC", "tonalRamp": ["#3D2906", "#7A5410", "#A8771E", "#D2A23F", "#EBC878", "#F8E2A6", "#FFF1CC", "#FFFAEB"] },
+      "butter-ink": { "role": "tertiary", "displayName": "Butter Ink", "canonical": "#7A5410", "tonalRamp": ["#3D2906", "#7A5410", "#A8771E", "#D2A23F", "#EBC878", "#F8E2A6", "#FFF1CC", "#FFFAEB"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The hero question on the cocoa worktop only; 1.95rem on phones." },
+      "headline": { "displayName": "Headline", "purpose": "Section h2 and product titles; fluid 2.1rem to 3.4rem." },
+      "title": { "displayName": "Title", "purpose": "h3, card, step and worktop product names; fluid 1.45rem to 2rem." },
+      "body": { "displayName": "Body", "purpose": "Running text; tab panels capped at 72ch." },
+      "lead": { "displayName": "Lead", "purpose": "Intro paragraphs in soft cocoa; fluid 1.125rem to 1.35rem." },
+      "ui": { "displayName": "UI", "purpose": "Buttons, job tab labels, FAQ summaries, prices." },
+      "sheet": { "displayName": "Sheet", "purpose": "All spreadsheet content, tabular numerals; column heads 800 at 0.8rem." },
+      "label": { "displayName": "Label", "purpose": "Footer column headings and filter group titles only; Arabic drops case and tracking." },
+      "arabic": { "displayName": "Arabic", "purpose": "Cairo replaces every role under :lang(ar), letter-spacing 0, body line height 1.8." }
+    },
+    "shadows": [
+      { "name": "soft", "value": "0 18px 40px -18px rgba(59, 42, 32, 0.28)", "purpose": "Hover on buttons and task cards; resting on the single-product add-to-cart." },
+      { "name": "lift", "value": "0 26px 60px -26px rgba(59, 42, 32, 0.38)", "purpose": "Hover on product cards, desktop submenu, signup preview image." },
+      { "name": "sheet-on-worktop", "value": "0 2px 0 rgba(0, 0, 0, 0.08), 0 28px 60px -30px rgba(0, 0, 0, 0.7)", "purpose": "Only the white sheet lying on the cocoa worktop." },
+      { "name": "cart-on-worktop", "value": "0 12px 24px -12px rgba(0, 0, 0, 0.6)", "purpose": "The raspberry add-to-cart inside the hero." },
+      { "name": "focus-ring", "value": "0 0 0 3px #FBF6EE, 0 0 0 5px #B8325A", "purpose": "Text fields on focus, with a raspberry border." }
+    ],
+    "motion": [
+      { "name": "ease-out-soft", "value": "cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Job tabs, arrow links, sheet row entrance." },
+      { "name": "state-fast", "value": "0.2s ease", "purpose": "Button, card, link and toggle state changes." },
+      { "name": "tab-state", "value": "0.25s cubic-bezier(0.22, 1, 0.36, 1)", "purpose": "Job tab background, border and transform." },
+      { "name": "sheet-row-in", "value": "0.42s cubic-bezier(0.22, 1, 0.36, 1), stagger 55ms per row + 60ms", "purpose": "Rows fill top to bottom when a job is chosen; off under reduced motion." }
+    ],
+    "breakpoints": [
+      { "name": "xs", "value": "380px" },
+      { "name": "phone-s", "value": "480px" },
+      { "name": "phone", "value": "599px" },
+      { "name": "featured-stack", "value": "760px" },
+      { "name": "product-stack", "value": "860px" },
+      { "name": "desktop", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The only action color: add to cart, signup, filters.",
+      "html": "<button class=\"ds-btn-primary\">Add to cart, instant download</button>",
+      "css": ".ds-btn-primary { background: var(--ccs-rasp, #B8325A); color: #fff; border: 0; border-radius: 999px; padding: 0.85em 1.6em; font-family: Nunito, Cairo, system-ui, sans-serif; font-weight: 800; font-size: 1rem; line-height: 1.2; cursor: pointer; transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; } .ds-btn-primary:hover { background: var(--ccs-rasp-dark, #932446); transform: translateY(-1px); box-shadow: 0 18px 40px -18px rgba(59, 42, 32, 0.28); } .ds-btn-primary:focus-visible { outline: 2px solid #3B2A20; outline-offset: 3px; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action on cream pages.",
+      "html": "<button class=\"ds-btn-outline\">See all products</button>",
+      "css": ".ds-btn-outline { background: transparent; color: #3B2A20; border: 2px solid #3B2A20; border-radius: 999px; padding: calc(0.85em - 2px) 1.6em; font-family: Nunito, Cairo, system-ui, sans-serif; font-weight: 800; font-size: 1rem; line-height: 1.2; cursor: pointer; transition: background-color 0.2s ease, color 0.2s ease; } .ds-btn-outline:hover { background: #3B2A20; color: #FBF6EE; } .ds-btn-outline:focus-visible { outline: 2px solid #B8325A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Job Tabs",
+      "kind": "custom",
+      "refersTo": "job-tab",
+      "description": "The worktop picker: cream-outlined tabs on cocoa, the chosen one fills raspberry.",
+      "html": "<div class=\"ds-worktop\"><div class=\"ds-tabs\" role=\"tablist\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\"><span class=\"ds-tab-label\">Keeping orders straight</span><span class=\"ds-tab-hint\">Orders, pickups, deposits</span></button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\"><span class=\"ds-tab-label\">Knowing what a bake costs</span><span class=\"ds-tab-hint\">Ingredients, packaging, your time</span></button></div></div>",
+      "css": ".ds-worktop { background: #3B2A20; padding: 1.25rem; } .ds-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.6rem; } .ds-tab { display: flex; flex-direction: column; gap: 0.2rem; min-height: 4.25rem; padding: 0.85rem 1.1rem; background: transparent; border: 1.5px solid color-mix(in srgb, #FBF6EE 34%, transparent); border-radius: 18px; color: #FBF6EE; text-align: start; font-family: Nunito, Cairo, system-ui, sans-serif; cursor: pointer; transition: background-color 0.25s cubic-bezier(0.22, 1, 0.36, 1), border-color 0.25s cubic-bezier(0.22, 1, 0.36, 1); } .ds-tab-label { font-weight: 800; font-size: 1.02rem; line-height: 1.25; } .ds-tab-hint { font-size: 0.85rem; line-height: 1.3; color: color-mix(in srgb, #FBF6EE 74%, #3B2A20); } .ds-tab:hover { border-color: #FBF6EE; background: color-mix(in srgb, #FBF6EE 8%, transparent); } .ds-tab[aria-selected=\"true\"] { background: #B8325A; border-color: #FBF6EE; } .ds-tab[aria-selected=\"true\"] .ds-tab-hint { color: color-mix(in srgb, #fff 86%, #B8325A); } .ds-tab:focus-visible { outline: 2px solid #FBF6EE; outline-offset: 3px; }"
+    },
+    {
+      "name": "Spreadsheet Sheet",
+      "kind": "custom",
+      "refersTo": "sheet",
+      "description": "The signature proof: the real template as a white sheet with file bar, cocoa column heads, status chips and a tab strip. Excerpts stay English.",
+      "html": "<figure class=\"ds-sheet\"><div class=\"ds-sheet-bar\"><span class=\"ds-sheet-file\">home-bakery-order-tracker.xlsx</span><span class=\"ds-sheet-sample\">Example data</span></div><table class=\"ds-sheet-table\"><thead><tr><th>Customer name</th><th>Item</th><th>Payment status</th></tr></thead><tbody><tr><td>Example: Sam R.</td><td>Celebration cake</td><td><span class=\"ds-chip ds-chip--butter\">Deposit paid</span></td></tr><tr><td>Example: Lee K.</td><td>Cookie box</td><td><span class=\"ds-chip ds-chip--sage\">Paid in full</span></td></tr><tr><td>Example: Ana M.</td><td>Cupcakes</td><td><span class=\"ds-chip ds-chip--rasp\">Unpaid</span></td></tr></tbody></table><div class=\"ds-sheet-tabs\"><span>Start here</span><span class=\"is-active\">Orders</span><span>Summary</span></div></figure>",
+      "css": ".ds-sheet { margin: 0; background: #fff; color: #3B2A20; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08), 0 28px 60px -30px rgba(0, 0, 0, 0.7); font-family: Nunito, Cairo, system-ui, sans-serif; font-size: 0.92rem; font-variant-numeric: tabular-nums; } .ds-sheet-bar { display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; padding: 0.6rem 0.9rem; background: #F4EADB; border-block-end: 1px solid #E6D9C6; } .ds-sheet-file { font-weight: 800; font-size: 0.82rem; } .ds-sheet-sample { background: #FFF1CC; color: #7A5410; font-weight: 800; font-size: 0.75rem; border-radius: 999px; padding: 0.15rem 0.6rem; } .ds-sheet-table { width: 100%; border-collapse: collapse; } .ds-sheet-table th, .ds-sheet-table td { padding: 0.62rem 0.8rem; text-align: start; border-block-end: 1px solid #E6D9C6; border-inline-end: 1px solid #E6D9C6; line-height: 1.35; } .ds-sheet-table th:last-child, .ds-sheet-table td:last-child { border-inline-end: 0; } .ds-sheet-table thead th { background: #3B2A20; color: #FBF6EE; font-weight: 800; font-size: 0.8rem; border-color: color-mix(in srgb, #FBF6EE 18%, transparent); } .ds-sheet-tabs { display: flex; gap: 0.2rem; padding: 0 0.6rem; background: #F4EADB; border-block-start: 1px solid #E6D9C6; } .ds-sheet-tabs span { padding: 0.45rem 0.8rem; font-size: 0.78rem; font-weight: 700; color: #6B5546; } .ds-sheet-tabs span.is-active { background: #fff; color: #3B2A20; border-inline: 1px solid #E6D9C6; box-shadow: inset 0 -3px 0 #7E9C7C; } .ds-chip { display: inline-block; padding: 0.12rem 0.55rem; border-radius: 999px; font-size: 0.78rem; font-weight: 800; white-space: nowrap; } .ds-chip--sage { background: #E3EBDD; color: #4F6B4E; } .ds-chip--rasp { background: #F6DCE3; color: #932446; } .ds-chip--butter { background: #FFF1CC; color: #7A5410; }"
+    },
+    {
+      "name": "Status Chips",
+      "kind": "chip",
+      "refersTo": "chip-status-sage",
+      "description": "The four status tones from the shipped files.",
+      "html": "<div class=\"ds-chips\"><span class=\"ds-schip ds-schip--sage\">Confirmed</span><span class=\"ds-schip ds-schip--butter\">In progress</span><span class=\"ds-schip ds-schip--rasp\">Unpaid</span><span class=\"ds-schip ds-schip--plain\">Quoted</span></div>",
+      "css": ".ds-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; } .ds-schip { display: inline-block; padding: 0.12rem 0.55rem; border-radius: 999px; font-family: Nunito, Cairo, system-ui, sans-serif; font-size: 0.78rem; font-weight: 800; white-space: nowrap; } .ds-schip--sage { background: #E3EBDD; color: #4F6B4E; } .ds-schip--butter { background: #FFF1CC; color: #7A5410; } .ds-schip--rasp { background: #F6DCE3; color: #932446; } .ds-schip--plain { background: #F4EADB; color: #3B2A20; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Shop filter tags; active state goes sage.",
+      "html": "<div class=\"ds-fchips\"><a href=\"#\" class=\"ds-fchip is-active\">Spreadsheet</a><a href=\"#\" class=\"ds-fchip\">Canva</a></div>",
+      "css": ".ds-fchips { display: flex; flex-wrap: wrap; gap: 0.4rem; } .ds-fchip { display: inline-block; padding: 0.35rem 0.8rem; border-radius: 999px; border: 1.5px solid #E6D9C6; background: #FBF6EE; color: #3B2A20; text-decoration: none; font-family: Nunito, Cairo, system-ui, sans-serif; font-weight: 700; font-size: 0.85rem; } .ds-fchip:hover, .ds-fchip.is-active { border-color: #4F6B4E; background: #E3EBDD; color: #4F6B4E; } .ds-fchip:focus-visible { outline: 2px solid #B8325A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "White card on cream, flat until hover, square preview, Fraunces title, bold price, pill button.",
+      "html": "<article class=\"ds-pcard\"><div class=\"ds-pcard-img\"></div><h3 class=\"ds-pcard-title\">Home Bakery Order Tracker</h3><p class=\"ds-pcard-meta\">Spreadsheet · XLSX</p><p class=\"ds-pcard-price\">$9.00</p><button class=\"ds-pcard-btn\">Add to cart</button></article>",
+      "css": ".ds-pcard { display: flex; flex-direction: column; max-width: 260px; background: #fff; border: 1px solid #E6D9C6; border-radius: 18px; padding: 0.75rem 0.75rem 1.25rem; color: #3B2A20; font-family: Nunito, Cairo, system-ui, sans-serif; transition: box-shadow 0.2s ease, border-color 0.2s ease; } .ds-pcard:hover { box-shadow: 0 26px 60px -26px rgba(59, 42, 32, 0.38); border-color: color-mix(in srgb, #3B2A20 30%, #E6D9C6); } .ds-pcard-img { aspect-ratio: 1; border-radius: 12px; background: #F4EADB; margin-block-end: 1rem; } .ds-pcard-title { margin: 0; padding-inline: 0.5rem; font-family: Fraunces, Cairo, Georgia, serif; font-size: 1.2rem; font-weight: 600; line-height: 1.25; } .ds-pcard-meta { margin: 0.25rem 0; padding-inline: 0.5rem; font-size: 0.85rem; color: #6B5546; } .ds-pcard-price { margin: 0.25rem 0 0.75rem; padding-inline: 0.5rem; font-weight: 800; font-size: 1.05rem; } .ds-pcard-btn { margin-inline: 0.5rem; background: #B8325A; color: #fff; border: 0; border-radius: 999px; padding: 0.85em 1.5em; font: inherit; font-weight: 800; line-height: 1.2; cursor: pointer; transition: background-color 0.2s ease; } .ds-pcard-btn:hover { background: #932446; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Signup, contact and filter fields; raspberry border and double ring on focus.",
+      "html": "<label class=\"ds-field\"><span>Your email address</span><input class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\"></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 0.3rem; font-family: Nunito, Cairo, system-ui, sans-serif; font-weight: 700; color: #3B2A20; max-width: 320px; } .ds-input { width: 100%; box-sizing: border-box; min-height: 48px; padding: 0.8rem 1rem; border-radius: 10px; border: 1.5px solid #E6D9C6; background: #fff; color: #3B2A20; font: inherit; font-weight: 400; } .ds-input:focus { border-color: #B8325A; outline: none; box-shadow: 0 0 0 3px #FBF6EE, 0 0 0 5px #B8325A; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Frosted cream header with cocoa pill links; hover and current turn warm cream.",
+      "html": "<header class=\"ds-header\"><span class=\"ds-brand\">Crumb &amp; Co. Studio</span><nav><ul class=\"ds-nav\"><li><a href=\"#\" class=\"is-current\">Shop</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">FAQ</a></li><li><a href=\"#\">Contact</a></li></ul></nav></header>",
+      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.85rem 1.25rem; background: color-mix(in srgb, #FBF6EE 92%, transparent); backdrop-filter: saturate(1.2) blur(10px); border-block-end: 1px solid #E6D9C6; } .ds-brand { font-family: Fraunces, Cairo, Georgia, serif; font-weight: 700; font-size: 1.35rem; color: #3B2A20; } .ds-nav { list-style: none; margin: 0; padding: 0; display: flex; gap: 0.25rem; } .ds-nav a { display: inline-block; padding: 0.55rem 0.9rem; border-radius: 999px; color: #3B2A20; text-decoration: none; font-family: Nunito, Cairo, system-ui, sans-serif; font-weight: 700; } .ds-nav a:hover, .ds-nav a.is-current { background: #F4EADB; } .ds-nav a:focus-visible { outline: 2px solid #B8325A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Digital Notice",
+      "kind": "custom",
+      "refersTo": "notice-digital",
+      "description": "Sage reassurance panel on product and cart pages: files only, nothing shipped.",
+      "html": "<div class=\"ds-notice\"><span class=\"ds-notice-icon\"><svg viewBox=\"0 0 20 20\" width=\"20\" height=\"20\" aria-hidden=\"true\"><path d=\"M10 3v9m-4-4 4 4 4-4M4 16h12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><div><strong>Digital download</strong><p>You receive editable files. Nothing is printed or shipped.</p></div></div>",
+      "css": ".ds-notice { display: flex; gap: 0.9rem; align-items: flex-start; max-width: 420px; background: #E3EBDD; border: 1px solid color-mix(in srgb, #7E9C7C 40%, transparent); border-radius: 18px; padding: 1rem 1.2rem; font-family: Nunito, Cairo, system-ui, sans-serif; font-size: 0.95rem; color: #3B2A20; } .ds-notice-icon { flex: none; width: 36px; height: 36px; border-radius: 50%; background: #fff; display: grid; place-items: center; color: #4F6B4E; } .ds-notice strong { display: block; margin-block-end: 0.15rem; } .ds-notice p { margin: 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Cocoa Worktop",
+    "overview": "The shop is a baker's bench with the paperwork laid out on it. The deepest surface is cocoa, the color of a dark worktop, and the products sit on it as what they really are: white spreadsheet sheets with real column heads, a file-name bar, a tab strip and status chips. Everything else on the site is cream paper around that bench. The system proves the product by showing the product; the sheet is the hero image, not an illustration of one.\n\nDensity is moderate and calm. Cream pages carry generous section rhythm (spacing 60, up to 5rem), pill-shaped controls, and softly rounded cards with hairline crumb borders. The one dark field (cocoa) is reserved for the first viewport worktop and the footer, so a page reads as cream between two cocoa slabs. Raspberry is the single action color; sage and butter are status and reassurance tones taken from the shipped template files.\n\nThe system is fully bidirectional. Every component is written with logical properties (margin-inline, padding-block, inset-inline-start, border-inline-end, text-align: start), directional glyphs mirror under .ccs-rtl, and Arabic switches every role to Cairo with zero tracking. Sheet excerpts (column heads, file names, sample rows) stay in English in every locale, because the files buyers download are English; the surrounding page copy is translated.",
+    "keyCharacteristics": [
+      "Cocoa worktop for the first viewport and footer; cream everywhere else.",
+      "The spreadsheet sheet is the signature component and the main proof.",
+      "Raspberry means \"act\" (buttons, the chosen job tab, focus ring, mini-cart badge).",
+      "Pills for controls, 18px corners for containers, 10px for fields.",
+      "Soft, warm, cocoa-tinted shadows only; most surfaces are flat with a 1px crumb line.",
+      "Logical properties everywhere; Arabic is a first-class version, not a mirror pass."
+    ],
+    "rules": [
+      { "name": "The One Action Color Rule", "body": "Raspberry is the only color a buyer clicks. Sage and butter never fill a button; they describe state.", "section": "colors" },
+      { "name": "The Status Triad Rule", "body": "Statuses use exactly the tones the shipped files use: sage cream for done or paid, butter for in progress or deposit, raspberry cream for unpaid or attention, warm cream for neutral. Do not add a fourth hue.", "section": "colors" },
+      { "name": "The Two Slabs Rule", "body": "Cocoa fills a full-bleed band only for the first-viewport worktop and the footer. Elsewhere cocoa is ink, a stroke, or a small fill (sheet head, active tab, badge).", "section": "colors" },
+      { "name": "The Serif Asks, The Sans Works Rule", "body": "Fraunces is for questions, headings and product names. Anything a baker reads as data (sheet, facts, prices, chips, controls) is Nunito.", "section": "typography" },
+      { "name": "The Tabular Sheet Rule", "body": "Sheet content always uses tabular numerals so example amounts line up the way they will in the real file.", "section": "typography" },
+      { "name": "The Flat Until Touched Rule", "body": "Cream-page cards rest flat on a crumb line and gain Soft or Lift only on hover. Only floating layers and the worktop sheet carry a shadow at rest.", "section": "elevation" }
+    ],
+    "dos": [
+      "**Do** show the template itself as proof: a white sheet with real column heads, file bar and tab strip, labelled \"Example data\".",
+      "**Do** keep raspberry (#B8325A) for actions only, with deep raspberry (#932446) on hover.",
+      "**Do** use the four status tones (sage cream, butter, raspberry cream, warm cream) exactly as the shipped files use them.",
+      "**Do** write every inset, margin, border and alignment with logical properties, and mirror directional icons under `.ccs-rtl`.",
+      "**Do** switch every role to Cairo under `:lang(ar)` with letter-spacing 0, body line height 1.8 and headings at 700.",
+      "**Do** keep sheet excerpts in English in every locale while translating the surrounding copy.",
+      "**Do** keep touch targets at 44px or more (header tools, nav toggle, filter fields, ordering select).",
+      "**Do** use warm cocoa-tinted shadows (rgba(59, 42, 32, ...)) with negative spread, and only on hover or floating layers."
+    ],
+    "donts": [
+      "**Don't** fill a full-bleed band with cocoa outside the hero worktop and the footer.",
+      "**Don't** use sage or butter as a button or link color.",
+      "**Don't** set sheet data, prices or controls in Fraunces.",
+      "**Don't** invent reviews, counts or guarantees to fill a component; use the dashed placeholder card instead.",
+      "**Don't** use physical properties (`margin-left`, `left`, `text-align: left`) in new components.",
+      "**Don't** use neutral grey or black shadows on cream pages; black-based shadows belong only to objects lying on the cocoa worktop."
+    ]
+  }
+}

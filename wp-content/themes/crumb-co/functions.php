@@ -17,6 +17,7 @@ define( 'CRUMB_CO_VERSION', '1.0.0' );
 
 require_once get_template_directory() . '/inc/block-markup.php';
 require_once get_template_directory() . '/inc/shop-filters.php';
+require_once get_template_directory() . '/inc/task-picker.php';
 
 /**
  * Theme setup.
@@ -245,7 +246,7 @@ add_shortcode( 'crumb_shop_header', function () {
 		$title = sprintf( __( 'Results for “%s”', 'crumb-co' ), get_search_query() );
 		$intro = '';
 	}
-	$out  = '<div class="ccs-shop-header"><p class="ccs-eyebrow">' . esc_html__( 'Digital downloads for home bakers', 'crumb-co' ) . '</p>';
+	$out  = '<div class="ccs-shop-header">';
 	$out .= '<h1 class="ccs-shop-header__title">' . esc_html( $title ) . '</h1>';
 	if ( $intro ) {
 		$out .= '<div class="ccs-shop-header__intro">' . wp_kses_post( wpautop( $intro ) ) . '</div>';

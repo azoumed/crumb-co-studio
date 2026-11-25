@@ -1,632 +1,1066 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Crumb & Co. Studio package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: crumb-co 1.0.0\n"
+"Project-Id-Version: Crumb & Co. Studio\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-25 18:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Domain: crumb-co\n"
 
+#: functions.php:41
 msgid "Main navigation"
 msgstr ""
 
+#: functions.php:42
 msgid "Footer: Shop"
 msgstr ""
 
+#: functions.php:43
 msgid "Footer: Help & policies"
 msgstr ""
 
+#: functions.php:61
 msgid "Crumb & Co. sections"
 msgstr ""
 
+#: functions.php:62
 msgid "Crumb & Co. pages"
 msgstr ""
 
+#: functions.php:102
 msgid "Digital tools for your home bakery — instant download, nothing shipped."
 msgstr ""
 
-msgid "Practical, editable templates that help home bakers organise orders, cost their bakes and share their work."
+#: functions.php:103
+msgid ""
+"Practical, editable templates that help home bakers organise orders, cost "
+"their bakes and share their work."
 msgstr ""
 
+#: functions.php:104
 msgid "Crumb & Co. Studio"
 msgstr ""
 
+#: functions.php:137
 msgid "All products are digital downloads. No physical items are shipped."
 msgstr ""
 
+#: functions.php:151
 msgid "Choose language"
 msgstr ""
 
+#: functions.php:177
 msgid "Main"
 msgstr ""
 
+#: functions.php:179
 msgid "Menu"
 msgstr ""
 
+#: functions.php:190 functions.php:208
 msgid "Shop"
 msgstr ""
 
+#: functions.php:191 functions.php:223
 msgid "About"
 msgstr ""
 
+#: functions.php:192 functions.php:222
 msgid "FAQ"
 msgstr ""
 
+#: functions.php:193 functions.php:222
 msgid "Contact"
 msgstr ""
 
+#: functions.php:209
 msgid "Help & policies"
 msgstr ""
 
+#: functions.php:222
 msgid "Digital download & refund policy"
 msgstr ""
 
+#: functions.php:222
 msgid "Privacy policy"
 msgstr ""
 
+#: functions.php:222
 msgid "Terms"
 msgstr ""
 
+#: functions.php:223 inc/shop-filters.php:55
 msgid "All products"
 msgstr ""
 
+#: functions.php:223
 msgid "My account & downloads"
 msgstr ""
 
+#: functions.php:238
 msgid "The Toolkit"
 msgstr ""
 
-msgid "Editable templates for the everyday jobs of a home bakery. Every product is a digital download — nothing is shipped."
+#: functions.php:239
+msgid ""
+"Editable templates for the everyday jobs of a home bakery. Every product is "
+"a digital download — nothing is shipped."
 msgstr ""
 
+#. translators: %s: search terms
+#: functions.php:246
+#, php-format
 msgid "Results for “%s”"
 msgstr ""
 
-msgid "Digital downloads for home bakers"
-msgstr ""
-
+#: functions.php:275
 msgid "Breadcrumb"
 msgstr ""
 
+#: functions.php:312
 msgid "Nothing found. Try another search or browse the toolkit."
 msgstr ""
 
+#: functions.php:313 patterns/not-found.php:21
 msgid "Browse the toolkit"
 msgstr ""
 
+#: inc/shop-filters.php:33
 msgid "Search & filter"
 msgstr ""
 
+#: inc/shop-filters.php:37
 msgid "Search the toolkit"
 msgstr ""
 
+#: inc/shop-filters.php:39
 msgid "e.g. order tracker"
 msgstr ""
 
+#: inc/shop-filters.php:44
 msgid "Search"
 msgstr ""
 
+#: inc/shop-filters.php:53 patterns/category-grid.php:13
 msgid "Shop by task"
 msgstr ""
 
+#: inc/shop-filters.php:68
 msgid "File format"
 msgstr ""
 
+#: inc/shop-filters.php:79
 msgid "Price"
 msgstr ""
 
+#: inc/shop-filters.php:81
 msgid "Min"
 msgstr ""
 
+#: inc/shop-filters.php:83
 msgid "Max"
 msgstr ""
 
+#: inc/shop-filters.php:90
 msgid "Apply"
 msgstr ""
 
+#: inc/shop-filters.php:91
 msgid "Clear filters"
 msgstr ""
 
+#: inc/shop-filters.php:97
 msgid "Questions before you buy?"
 msgstr ""
 
-msgid "Every product is a digital download. See how downloads work, or ask us anything."
+#: inc/shop-filters.php:98
+msgid ""
+"Every product is a digital download. See how downloads work, or ask us "
+"anything."
 msgstr ""
 
+#: inc/shop-filters.php:99
 msgid "Read the FAQ"
 msgstr ""
 
+#: inc/shop-filters.php:99
 msgid "Contact support"
 msgstr ""
 
-msgid "Why these tools exist"
-msgstr ""
-
-msgid "Made for real bakery tasks"
-msgstr ""
-
-msgid "Running a bakery from home means juggling orders, costs and customers between batches. Each tool tackles one of those jobs."
-msgstr ""
-
+#: inc/task-picker.php:28 patterns/bakery-tasks.php:30
 msgid "Keeping orders straight"
 msgstr ""
 
-msgid "Track who ordered what, when it's due, what's been paid and what's still to bake — in one sheet instead of scattered messages."
+#: inc/task-picker.php:29
+msgid "Orders, pickups, deposits"
 msgstr ""
 
-msgid "Order tools"
-msgstr ""
-
+#: inc/task-picker.php:33 patterns/bakery-tasks.php:48
 msgid "Knowing what a bake costs"
 msgstr ""
 
-msgid "Add up ingredients, packaging and your time so you can see your real costs before you set a price."
+#: inc/task-picker.php:34
+msgid "Ingredients, packaging, your time"
 msgstr ""
 
-msgid "Pricing tools"
-msgstr ""
-
+#: inc/task-picker.php:38 patterns/bakery-tasks.php:66
 msgid "Getting ready to take orders"
 msgstr ""
 
-msgid "An order form, customer questionnaire, menu and launch checklist so you don't start from a blank page."
+#: inc/task-picker.php:39
+msgid "Order form, menu, checklist"
 msgstr ""
 
-msgid "Launch tools"
-msgstr ""
-
+#: inc/task-picker.php:43 patterns/bakery-tasks.php:84
 msgid "Knowing what to post"
 msgstr ""
 
-msgid "Plan a month of posts around your products and the seasons, with prompts for the days ideas run dry."
+#: inc/task-picker.php:44
+msgid "A month of posts, planned"
 msgstr ""
 
-msgid "Marketing tools"
+#: inc/task-picker.php:104
+msgid "calculated by formula"
 msgstr ""
 
-msgid "Digital downloads only"
+#: inc/task-picker.php:105
+msgid "you type this"
 msgstr ""
 
-msgid "Every product is a file you download. Nothing physical is printed or shipped."
+#: inc/task-picker.php:126
+msgid ""
+"Yellow cells are yours to fill in. The sheet adds up your costs; it does not "
+"set your price."
 msgstr ""
 
-msgid "Instant access"
+#: inc/task-picker.php:144
+msgid ""
+"25 tasks in six stages, plus the order form, questionnaire and menu as Word "
+"documents."
 msgstr ""
 
-msgid "Download links appear on your order confirmation, in your email and in My Account → Downloads."
+#: inc/task-picker.php:159
+msgid ""
+"22 prompts across 8 themes, and a month-by-month list of occasions to plan "
+"around."
 msgstr ""
 
-msgid "Help when you need it"
+#: inc/task-picker.php:174
+msgid ""
+"300 ready rows. The balance due works itself out, and the Summary tab counts "
+"orders by status."
 msgstr ""
 
-msgid "Trouble downloading or opening a file? <a href=\"%s\">Contact support</a> and include your order number."
+#: inc/task-picker.php:194
+msgid "Choose a job"
 msgstr ""
 
-msgid "The starter toolkit"
+#. translators: %s: file name
+#: inc/task-picker.php:218
+#, php-format
+msgid "Preview of %s with example data"
 msgstr ""
 
-msgid "Four focused tools. No fluff."
+#: inc/task-picker.php:221
+msgid "Example data"
 msgstr ""
 
-msgid "See all products"
+#: inc/task-picker.php:255 patterns/page-faq.php:21
+msgid ""
+"The template files are currently in English. Because every label is "
+"editable, you can translate headings and lists into your own language."
 msgstr ""
 
-msgid "Customer feedback"
+#: inc/task-picker.php:271
+msgid "Format"
 msgstr ""
 
-msgid "Words from bakers using the toolkit"
+#: inc/task-picker.php:274
+msgid "Works with"
 msgstr ""
 
-msgid "We are a new shop, so we have not collected feedback yet. These spaces are saved for real comments from customers, shared with their permission."
+#: inc/task-picker.php:280
+msgid "Add to cart, instant download"
 msgstr ""
 
-msgid "Placeholder"
+#: inc/task-picker.php:282
+msgid "See everything inside"
 msgstr ""
 
-msgid "[Add a real customer comment here, in their own words, once they have agreed to share it.]"
-msgstr ""
-
-msgid "[First name] · [Type of bakery] · [Product used]"
-msgstr ""
-
-msgid "Preview of the free one-page printable order tracker"
-msgstr ""
-
-msgid "Free printable"
-msgstr ""
-
-msgid "Try the one-page order tracker"
-msgstr ""
-
-msgid "A simple printable sheet for a week of orders: customer, item, pickup time, price, deposit and status. Join our email list and the download link appears right away."
-msgstr ""
-
-msgid "Templates & tools for home bakers"
-msgstr ""
-
-msgid "Spend less time organizing. More time baking."
-msgstr ""
-
-msgid "Crumb & Co. Studio makes practical, editable templates for home-based bakers: order trackers, cost calculators, launch documents and content planners. Download them, make them yours, and get back to the oven."
-msgstr ""
-
+#: inc/task-picker.php:286
 msgid "Explore the Toolkit"
 msgstr ""
 
-msgid "Get the free order tracker"
+#: patterns/bakery-tasks.php:14
+msgid "Made for real bakery tasks"
 msgstr ""
 
-msgid "Instant digital download"
+#: patterns/bakery-tasks.php:18
+msgid ""
+"Running a bakery from home means juggling orders, costs and customers "
+"between batches. Each tool tackles one of those jobs."
 msgstr ""
 
-msgid "Edit in Excel, Google Sheets, Word or Google Docs"
+#: patterns/bakery-tasks.php:34
+msgid ""
+"Track who ordered what, when it's due, what's been paid and what's still to "
+"bake — in one sheet instead of scattered messages."
 msgstr ""
 
-msgid "Nothing is shipped"
+#: patterns/bakery-tasks.php:38
+msgid "Order tools"
 msgstr ""
 
-msgid "Illustration of a layered cake next to a tablet showing an order list"
+#: patterns/bakery-tasks.php:52
+msgid ""
+"Add up ingredients, packaging and your time so you can see your real costs "
+"before you set a price."
 msgstr ""
 
-msgid "How it works"
+#: patterns/bakery-tasks.php:56
+msgid "Pricing tools"
 msgstr ""
 
+#: patterns/bakery-tasks.php:70
+msgid ""
+"An order form, customer questionnaire, menu and launch checklist so you "
+"don't start from a blank page."
+msgstr ""
+
+#: patterns/bakery-tasks.php:74
+msgid "Launch tools"
+msgstr ""
+
+#: patterns/bakery-tasks.php:88
+msgid ""
+"Plan a month of posts around your products and the seasons, with prompts for "
+"the days ideas run dry."
+msgstr ""
+
+#: patterns/bakery-tasks.php:92
+msgid "Marketing tools"
+msgstr ""
+
+#: patterns/digital-notice.php:13
+msgid "Digital downloads only"
+msgstr ""
+
+#: patterns/digital-notice.php:13
+msgid ""
+"Every product is a file you download. Nothing physical is printed or shipped."
+msgstr ""
+
+#: patterns/digital-notice.php:17
+msgid "Instant access"
+msgstr ""
+
+#: patterns/digital-notice.php:17
+msgid ""
+"Download links appear on your order confirmation, in your email and in My "
+"Account → Downloads."
+msgstr ""
+
+#: patterns/digital-notice.php:21
+msgid "Help when you need it"
+msgstr ""
+
+#. translators: %s: contact page URL
+#: patterns/digital-notice.php:21
+#, php-format
+msgid ""
+"Trouble downloading or opening a file? <a href=\"%s\">Contact support</a> "
+"and include your order number."
+msgstr ""
+
+#: patterns/featured-products.php:15
+msgid "Four focused tools. No fluff."
+msgstr ""
+
+#: patterns/featured-products.php:20
+msgid "See all products"
+msgstr ""
+
+#: patterns/feedback-placeholder.php:14
+msgid "Words from bakers using the toolkit"
+msgstr ""
+
+#: patterns/feedback-placeholder.php:18
+msgid ""
+"We are a new shop, so we have not collected feedback yet. These spaces are "
+"saved for real comments from customers, shared with their permission."
+msgstr ""
+
+#: patterns/feedback-placeholder.php:25
+msgid "Placeholder"
+msgstr ""
+
+#: patterns/feedback-placeholder.php:29
+msgid ""
+"[Add a real customer comment here, in their own words, once they have agreed "
+"to share it.]"
+msgstr ""
+
+#: patterns/feedback-placeholder.php:33
+msgid "[First name] · [Type of bakery] · [Product used]"
+msgstr ""
+
+#: patterns/free-sample-signup.php:16
+msgid "Preview of the free one-page printable order tracker"
+msgstr ""
+
+#: patterns/free-sample-signup.php:22
+msgid "Try the one-page order tracker"
+msgstr ""
+
+#: patterns/free-sample-signup.php:26
+msgid ""
+"A simple printable sheet for a week of orders: customer, item, pickup time, "
+"price, deposit and status. Join our email list and the download link appears "
+"right away."
+msgstr ""
+
+#: patterns/hero.php:14
+msgid "What is taking most of your time this week?"
+msgstr ""
+
+#: patterns/hero.php:18
+msgid ""
+"Pick the job. You will see the template that handles it, with example data, "
+"before you buy. Every tool is an editable file you download straight away."
+msgstr ""
+
+#: patterns/how-it-works.php:14
 msgid "Three steps, then back to baking"
 msgstr ""
 
+#. translators: %s: step number
+#: patterns/how-it-works.php:26 patterns/how-it-works.php:44
+#: patterns/how-it-works.php:62
+#, php-format
 msgid "Step %s"
 msgstr ""
 
+#: patterns/how-it-works.php:30
 msgid "Choose a tool"
 msgstr ""
 
-msgid "Pick the template that fits the job in front of you. Each product page lists exactly which files are included and what software opens them."
+#: patterns/how-it-works.php:34
+msgid ""
+"Pick the template that fits the job in front of you. Each product page lists "
+"exactly which files are included and what software opens them."
 msgstr ""
 
+#: patterns/how-it-works.php:48
 msgid "Download it"
 msgstr ""
 
-msgid "Pay securely and your download links appear straight away on the order confirmation page, in your email and in My Account → Downloads."
+#: patterns/how-it-works.php:52
+msgid ""
+"Pay securely and your download links appear straight away on the order "
+"confirmation page, in your email and in My Account → Downloads."
 msgstr ""
 
+#: patterns/how-it-works.php:66
 msgid "Customise it"
 msgstr ""
 
-msgid "Open the file in Excel, Google Sheets, Word, Google Docs or LibreOffice. Change the wording, colours and categories to match your bakery."
+#: patterns/how-it-works.php:70
+msgid ""
+"Open the file in Excel, Google Sheets, Word, Google Docs or LibreOffice. "
+"Change the wording, colours and categories to match your bakery."
 msgstr ""
 
+#: patterns/how-it-works.php:79
 msgid "Digital products only."
 msgstr ""
 
-msgid "You receive files to download — no physical items are printed or shipped."
+#: patterns/how-it-works.php:79
+msgid ""
+"You receive files to download — no physical items are printed or shipped."
 msgstr ""
 
+#: patterns/not-found.php:10
 msgid "This page has crumbled"
 msgstr ""
 
-msgid "The page you were looking for is not here. Try searching the toolkit or head back to the shop."
+#: patterns/not-found.php:14
+msgid ""
+"The page you were looking for is not here. Try searching the toolkit or head "
+"back to the shop."
 msgstr ""
 
-msgid "Crumb & Co. Studio makes practical digital tools for people who bake from home and sell what they make — cakes, cookies, breads and everything in between."
+#: patterns/page-about.php:10
+msgid ""
+"Crumb & Co. Studio makes practical digital tools for people who bake from "
+"home and sell what they make — cakes, cookies, breads and everything in "
+"between."
 msgstr ""
 
+#: patterns/page-about.php:11
 msgid "Why we started"
 msgstr ""
 
-msgid "[Placeholder — tell your own story here: who you are, how you came to baking, and why you decided to make these tools. Keep it true and personal.]"
+#: patterns/page-about.php:12
+msgid ""
+"[Placeholder — tell your own story here: who you are, how you came to "
+"baking, and why you decided to make these tools. Keep it true and personal.]"
 msgstr ""
 
+#: patterns/page-about.php:13
 msgid "What we make"
 msgstr ""
 
-msgid "We keep the range small on purpose. Each product does one job well: tracking orders, adding up costs, getting ready to launch, or planning what to post. No giant bundles you will never open."
+#: patterns/page-about.php:14
+msgid ""
+"We keep the range small on purpose. Each product does one job well: tracking "
+"orders, adding up costs, getting ready to launch, or planning what to post. "
+"No giant bundles you will never open."
 msgstr ""
 
+#: patterns/page-about.php:15
 msgid "What we believe"
 msgstr ""
 
-msgid "<strong>Practical over pretty.</strong> Every template is built around a real task, then made to look good."
+#: patterns/page-about.php:17
+msgid ""
+"<strong>Practical over pretty.</strong> Every template is built around a "
+"real task, then made to look good."
 msgstr ""
 
-msgid "<strong>Yours to edit.</strong> Files open in common software, and you can change anything to fit your bakery."
+#: patterns/page-about.php:18
+msgid ""
+"<strong>Yours to edit.</strong> Files open in common software, and you can "
+"change anything to fit your bakery."
 msgstr ""
 
-msgid "<strong>Honest promises.</strong> Our tools help you get organised. They do not guarantee sales, prices or profit — your skill and your customers do the rest."
+#: patterns/page-about.php:19
+msgid ""
+"<strong>Honest promises.</strong> Our tools help you get organised. They do "
+"not guarantee sales, prices or profit — your skill and your customers do the "
+"rest."
 msgstr ""
 
-msgid "<strong>Small and focused.</strong> We add new tools slowly, based on what home bakers actually ask for."
+#: patterns/page-about.php:20
+msgid ""
+"<strong>Small and focused.</strong> We add new tools slowly, based on what "
+"home bakers actually ask for."
 msgstr ""
 
+#: patterns/page-about.php:22
 msgid "Say hello"
 msgstr ""
 
-msgid "Have an idea for a tool, or a question about a product? <a href=\"%s\">Get in touch</a> — we read every message."
+#. translators: %s: contact page URL
+#: patterns/page-about.php:23
+#, php-format
+msgid ""
+"Have an idea for a tool, or a question about a product? <a href=\"%s\">Get "
+"in touch</a> — we read every message."
 msgstr ""
 
-msgid "Questions about a product, a download that will not open, or an idea for a new tool? Send us a message."
+#: patterns/page-contact.php:10
+msgid ""
+"Questions about a product, a download that will not open, or an idea for a "
+"new tool? Send us a message."
 msgstr ""
 
+#: patterns/page-contact.php:21
 msgid "Support"
 msgstr ""
 
+#: patterns/page-contact.php:22
 msgid "Email:"
 msgstr ""
 
+#: patterns/page-contact.php:23
 msgid "Usual reply time: [Placeholder — e.g. within 2 business days]"
 msgstr ""
 
+#: patterns/page-contact.php:24
 msgid "Help with an order"
 msgstr ""
 
+#: patterns/page-contact.php:26
 msgid "Include your order number"
 msgstr ""
 
+#: patterns/page-contact.php:27
 msgid "Tell us which file and which software you are using"
 msgstr ""
 
+#: patterns/page-contact.php:28
 msgid "A screenshot of any error message helps"
 msgstr ""
 
-msgid "Looking for your files? They are in <a href=\"%s\">My Account → Downloads</a>."
+#. translators: %s: my account URL
+#: patterns/page-contact.php:30
+#, php-format
+msgid ""
+"Looking for your files? They are in <a href=\"%s\">My Account → Downloads</"
+"a>."
 msgstr ""
 
-msgid "Quick answers about buying, downloading and editing our templates. Cannot find what you need? Contact us any time."
+#: patterns/page-faq.php:10
+msgid ""
+"Quick answers about buying, downloading and editing our templates. Cannot "
+"find what you need? Contact us any time."
 msgstr ""
 
+#: patterns/page-faq.php:11
 msgid "Buying & downloading"
 msgstr ""
 
+#: patterns/page-faq.php:12
 msgid "Is anything shipped to me?"
 msgstr ""
 
-msgid "No. Every product is a digital download. Nothing physical is printed or posted, so there are no shipping costs or delivery times."
+#: patterns/page-faq.php:12
+msgid ""
+"No. Every product is a digital download. Nothing physical is printed or "
+"posted, so there are no shipping costs or delivery times."
 msgstr ""
 
+#: patterns/page-faq.php:13
 msgid "How do I get my files after paying?"
 msgstr ""
 
-msgid "As soon as your payment is confirmed, download links appear on the order confirmation page. We also email them to you, and they stay available in <a href=\"%s\">My Account → Downloads</a>."
+#. translators: %s: my account URL
+#: patterns/page-faq.php:13
+#, php-format
+msgid ""
+"As soon as your payment is confirmed, download links appear on the order "
+"confirmation page. We also email them to you, and they stay available in <a "
+"href=\"%s\">My Account → Downloads</a>."
 msgstr ""
 
+#: patterns/page-faq.php:14
 msgid "Do I need an account?"
 msgstr ""
 
-msgid "Creating an account at checkout is the easiest way to find your downloads again later. Your order email also contains your download links."
+#: patterns/page-faq.php:14
+msgid ""
+"Creating an account at checkout is the easiest way to find your downloads "
+"again later. Your order email also contains your download links."
 msgstr ""
 
+#: patterns/page-faq.php:15
 msgid "How many times can I download a file?"
 msgstr ""
 
-msgid "[Placeholder — state your download limit and link expiry, for example \"unlimited downloads for 12 months\". Match this to the settings on each product.]"
+#: patterns/page-faq.php:15
+msgid ""
+"[Placeholder — state your download limit and link expiry, for example "
+"\"unlimited downloads for 12 months\". Match this to the settings on each "
+"product.]"
 msgstr ""
 
+#: patterns/page-faq.php:16
 msgid "Which payment methods do you accept?"
 msgstr ""
 
-msgid "[Placeholder — list the payment methods you enable in WooCommerce → Settings → Payments.]"
+#: patterns/page-faq.php:16
+msgid ""
+"[Placeholder — list the payment methods you enable in WooCommerce → Settings "
+"→ Payments.]"
 msgstr ""
 
+#: patterns/page-faq.php:17
 msgid "Opening & editing"
 msgstr ""
 
+#: patterns/page-faq.php:18
 msgid "What software do I need?"
 msgstr ""
 
-msgid "Spreadsheets (.xlsx) open in Microsoft Excel, Google Sheets (free) and LibreOffice Calc (free). Documents (.docx) open in Microsoft Word, Google Docs and LibreOffice Writer. Printables (.pdf) open in any PDF reader. Each product page lists its exact files."
+#: patterns/page-faq.php:18
+msgid ""
+"Spreadsheets (.xlsx) open in Microsoft Excel, Google Sheets (free) and "
+"LibreOffice Calc (free). Documents (.docx) open in Microsoft Word, Google "
+"Docs and LibreOffice Writer. Printables (.pdf) open in any PDF reader. Each "
+"product page lists its exact files."
 msgstr ""
 
+#: patterns/page-faq.php:19
 msgid "Can I use the files on my phone?"
 msgstr ""
 
-msgid "You can view and make small edits with the Google Sheets, Google Docs or Microsoft apps on a phone. For setting things up the first time, a computer or tablet is more comfortable."
+#: patterns/page-faq.php:19
+msgid ""
+"You can view and make small edits with the Google Sheets, Google Docs or "
+"Microsoft apps on a phone. For setting things up the first time, a computer "
+"or tablet is more comfortable."
 msgstr ""
 
+#: patterns/page-faq.php:20
 msgid "Can I change the colours, wording and categories?"
 msgstr ""
 
-msgid "Yes. Everything is editable. Example rows are marked so you can delete them once you are ready."
+#: patterns/page-faq.php:20
+msgid ""
+"Yes. Everything is editable. Example rows are marked so you can delete them "
+"once you are ready."
 msgstr ""
 
+#: patterns/page-faq.php:21
 msgid "What language are the files in?"
 msgstr ""
 
-msgid "The template files are currently in English. Because every label is editable, you can translate headings and lists into your own language."
-msgstr ""
-
+#: patterns/page-faq.php:22
 msgid "Will the pricing calculator tell me what to charge?"
 msgstr ""
 
-msgid "No. It helps you add up your own costs and test the effect of a markup you choose. Your prices are your decision, based on your market and your goals."
+#: patterns/page-faq.php:22
+msgid ""
+"No. It helps you add up your own costs and test the effect of a markup you "
+"choose. Your prices are your decision, based on your market and your goals."
 msgstr ""
 
+#: patterns/page-faq.php:23
 msgid "Licence, refunds & help"
 msgstr ""
 
+#: patterns/page-faq.php:24
 msgid "Can I share or resell the templates?"
 msgstr ""
 
-msgid "You may use them for your own bakery business. Please do not share, resell or redistribute the files. See our <a href=\"%s\">Terms</a> for details."
+#. translators: %s: terms page URL
+#: patterns/page-faq.php:24
+#, php-format
+msgid ""
+"You may use them for your own bakery business. Please do not share, resell "
+"or redistribute the files. See our <a href=\"%s\">Terms</a> for details."
 msgstr ""
 
+#: patterns/page-faq.php:25
 msgid "What if a file does not open or something is missing?"
 msgstr ""
 
-msgid "<a href=\"%s\">Contact us</a> with your order number and a short description of the problem. We will help you get it working or send a corrected file."
+#. translators: %s: contact page URL
+#: patterns/page-faq.php:25
+#, php-format
+msgid ""
+"<a href=\"%s\">Contact us</a> with your order number and a short description "
+"of the problem. We will help you get it working or send a corrected file."
 msgstr ""
 
+#: patterns/page-faq.php:26
 msgid "Can I get a refund?"
 msgstr ""
 
-msgid "Please read our <a href=\"%s\">Digital Download & Refund Policy</a> before you buy. It explains when refunds are possible for digital products."
+#. translators: %s: refund policy URL
+#: patterns/page-faq.php:26
+#, php-format
+msgid ""
+"Please read our <a href=\"%s\">Digital Download & Refund Policy</a> before "
+"you buy. It explains when refunds are possible for digital products."
 msgstr ""
 
-msgid "Template notice: this privacy policy is a starting point, not legal advice. Complete every [placeholder], list the services you actually use, and have it reviewed for the privacy laws that apply to you. WordPress also offers a privacy policy guide under Settings → Privacy."
+#: patterns/page-privacy-policy.php:10
+msgid ""
+"Template notice: this privacy policy is a starting point, not legal advice. "
+"Complete every [placeholder], list the services you actually use, and have "
+"it reviewed for the privacy laws that apply to you. WordPress also offers a "
+"privacy policy guide under Settings → Privacy."
 msgstr ""
 
+#: patterns/page-privacy-policy.php:11 patterns/page-refund-policy.php:11
+#: patterns/page-terms.php:11
 msgid "Last updated: [date]"
 msgstr ""
 
+#: patterns/page-privacy-policy.php:12
 msgid "Who we are"
 msgstr ""
 
-msgid "This website is run by [Business name], [business address or country]. Contact: [support email]."
+#: patterns/page-privacy-policy.php:13
+msgid ""
+"This website is run by [Business name], [business address or country]. "
+"Contact: [support email]."
 msgstr ""
 
+#: patterns/page-privacy-policy.php:14
 msgid "What we collect"
 msgstr ""
 
-msgid "<strong>Orders:</strong> your name, email address, billing details needed by the payment provider, and what you bought."
+#: patterns/page-privacy-policy.php:16
+msgid ""
+"<strong>Orders:</strong> your name, email address, billing details needed by "
+"the payment provider, and what you bought."
 msgstr ""
 
-msgid "<strong>Account:</strong> if you create an account, your login details and order history."
+#: patterns/page-privacy-policy.php:17
+msgid ""
+"<strong>Account:</strong> if you create an account, your login details and "
+"order history."
 msgstr ""
 
-msgid "<strong>Email list:</strong> if you sign up for the free sample or newsletter, your email address and the date you joined."
+#: patterns/page-privacy-policy.php:18
+msgid ""
+"<strong>Email list:</strong> if you sign up for the free sample or "
+"newsletter, your email address and the date you joined."
 msgstr ""
 
-msgid "<strong>Contact form:</strong> the name, email address and message you send us."
+#: patterns/page-privacy-policy.php:19
+msgid ""
+"<strong>Contact form:</strong> the name, email address and message you send "
+"us."
 msgstr ""
 
-msgid "<strong>Technical data:</strong> cookies needed for the cart, checkout and login to work. [Add any analytics tools you use.]"
+#: patterns/page-privacy-policy.php:20
+msgid ""
+"<strong>Technical data:</strong> cookies needed for the cart, checkout and "
+"login to work. [Add any analytics tools you use.]"
 msgstr ""
 
+#: patterns/page-privacy-policy.php:22
 msgid "How we use it"
 msgstr ""
 
-msgid "To process your order and deliver your downloads, provide support, send emails you asked for, and keep the website secure. [Add any other purposes.]"
+#: patterns/page-privacy-policy.php:23
+msgid ""
+"To process your order and deliver your downloads, provide support, send "
+"emails you asked for, and keep the website secure. [Add any other purposes.]"
 msgstr ""
 
+#: patterns/page-privacy-policy.php:24
 msgid "Payments"
 msgstr ""
 
-msgid "Payments are handled by [payment provider]. We do not store your full card details on this website. See [payment provider]’s privacy policy for how they handle your data."
+#: patterns/page-privacy-policy.php:25
+msgid ""
+"Payments are handled by [payment provider]. We do not store your full card "
+"details on this website. See [payment provider]’s privacy policy for how "
+"they handle your data."
 msgstr ""
 
+#: patterns/page-privacy-policy.php:26
 msgid "Who we share it with"
 msgstr ""
 
-msgid "[Placeholder — list service providers such as your hosting company, payment provider and email marketing service.] We do not sell your personal data."
+#: patterns/page-privacy-policy.php:27
+msgid ""
+"[Placeholder — list service providers such as your hosting company, payment "
+"provider and email marketing service.] We do not sell your personal data."
 msgstr ""
 
+#: patterns/page-privacy-policy.php:28
 msgid "How long we keep it"
 msgstr ""
 
-msgid "[Placeholder — e.g. order records for the period required for tax purposes; email list data until you unsubscribe.]"
+#: patterns/page-privacy-policy.php:29
+msgid ""
+"[Placeholder — e.g. order records for the period required for tax purposes; "
+"email list data until you unsubscribe.]"
 msgstr ""
 
+#: patterns/page-privacy-policy.php:30
 msgid "Your choices and rights"
 msgstr ""
 
-msgid "You can unsubscribe from emails at any time and ask us to access, correct or delete your personal data, subject to legal record-keeping requirements. Contact [support email]."
+#: patterns/page-privacy-policy.php:31
+msgid ""
+"You can unsubscribe from emails at any time and ask us to access, correct or "
+"delete your personal data, subject to legal record-keeping requirements. "
+"Contact [support email]."
 msgstr ""
 
-msgid "Template notice: this policy is a starting point, not legal advice. Fill in every [placeholder] and check it against the consumer laws that apply to you and your customers before publishing."
+#: patterns/page-refund-policy.php:10
+msgid ""
+"Template notice: this policy is a starting point, not legal advice. Fill in "
+"every [placeholder] and check it against the consumer laws that apply to you "
+"and your customers before publishing."
 msgstr ""
 
+#: patterns/page-refund-policy.php:12
 msgid "What you are buying"
 msgstr ""
 
-msgid "All products sold by [Business name] are digital files (such as spreadsheets, documents and PDFs). No physical products are printed or shipped."
+#: patterns/page-refund-policy.php:13
+msgid ""
+"All products sold by [Business name] are digital files (such as "
+"spreadsheets, documents and PDFs). No physical products are printed or "
+"shipped."
 msgstr ""
 
+#: patterns/page-refund-policy.php:14
 msgid "Delivery"
 msgstr ""
 
-msgid "After your payment is confirmed, download links are shown on the order confirmation page, sent to the email address you provide, and kept in My Account → Downloads if you created an account."
+#: patterns/page-refund-policy.php:15
+msgid ""
+"After your payment is confirmed, download links are shown on the order "
+"confirmation page, sent to the email address you provide, and kept in My "
+"Account → Downloads if you created an account."
 msgstr ""
 
-msgid "Download limits: [Placeholder — e.g. unlimited downloads / X downloads, available for X days]."
+#: patterns/page-refund-policy.php:16
+msgid ""
+"Download limits: [Placeholder — e.g. unlimited downloads / X downloads, "
+"available for X days]."
 msgstr ""
 
+#: patterns/page-refund-policy.php:17
 msgid "Before you buy"
 msgstr ""
 
-msgid "Each product page lists the included files and compatible software. Please check these details, or ask us, before purchasing."
+#: patterns/page-refund-policy.php:18
+msgid ""
+"Each product page lists the included files and compatible software. Please "
+"check these details, or ask us, before purchasing."
 msgstr ""
 
+#: patterns/page-refund-policy.php:19
 msgid "Problems with a file"
 msgstr ""
 
-msgid "If a file is faulty, will not open in the listed software, or does not match its description, contact us within [X days] of purchase with your order number. We will first try to fix the problem or send a replacement file."
+#: patterns/page-refund-policy.php:20
+msgid ""
+"If a file is faulty, will not open in the listed software, or does not match "
+"its description, contact us within [X days] of purchase with your order "
+"number. We will first try to fix the problem or send a replacement file."
 msgstr ""
 
+#: patterns/page-refund-policy.php:21
 msgid "Refunds"
 msgstr ""
 
-msgid "[Placeholder — describe your refund policy for digital products, for example when a refund is offered, when it is not, and how long it takes. Make sure it respects any statutory rights your customers have.]"
+#: patterns/page-refund-policy.php:22
+msgid ""
+"[Placeholder — describe your refund policy for digital products, for example "
+"when a refund is offered, when it is not, and how long it takes. Make sure "
+"it respects any statutory rights your customers have.]"
 msgstr ""
 
+#: patterns/page-refund-policy.php:23
 msgid "Duplicate purchases"
 msgstr ""
 
-msgid "If you accidentally buy the same product twice, contact us within [X days] and we will [Placeholder — e.g. refund the duplicate order]."
+#: patterns/page-refund-policy.php:24
+msgid ""
+"If you accidentally buy the same product twice, contact us within [X days] "
+"and we will [Placeholder — e.g. refund the duplicate order]."
 msgstr ""
 
+#: patterns/page-refund-policy.php:25
 msgid "How to contact us"
 msgstr ""
 
-msgid "Use our <a href=\"%s\">contact page</a> or email [support email]. Please include your order number."
+#. translators: %s: contact page URL
+#: patterns/page-refund-policy.php:26
+#, php-format
+msgid ""
+"Use our <a href=\"%s\">contact page</a> or email [support email]. Please "
+"include your order number."
 msgstr ""
 
-msgid "Template notice: these terms are a starting point, not legal advice. Complete every [placeholder] and have them reviewed for your country before publishing."
+#: patterns/page-terms.php:10
+msgid ""
+"Template notice: these terms are a starting point, not legal advice. "
+"Complete every [placeholder] and have them reviewed for your country before "
+"publishing."
 msgstr ""
 
+#: patterns/page-terms.php:12
 msgid "About these terms"
 msgstr ""
 
-msgid "These terms apply to purchases from [Business name] through this website. By placing an order you agree to them."
+#: patterns/page-terms.php:13
+msgid ""
+"These terms apply to purchases from [Business name] through this website. By "
+"placing an order you agree to them."
 msgstr ""
 
+#: patterns/page-terms.php:14
 msgid "Digital products"
 msgstr ""
 
-msgid "All products are digital downloads. No physical items are shipped. Delivery and refunds are described in our Digital Download & Refund Policy."
+#: patterns/page-terms.php:15
+msgid ""
+"All products are digital downloads. No physical items are shipped. Delivery "
+"and refunds are described in our Digital Download & Refund Policy."
 msgstr ""
 
+#: patterns/page-terms.php:16
 msgid "Your licence"
 msgstr ""
 
+#: patterns/page-terms.php:18
 msgid "You may use and edit the files for your own bakery business."
 msgstr ""
 
-msgid "You may print copies for your own use and give completed forms to your customers."
+#: patterns/page-terms.php:19
+msgid ""
+"You may print copies for your own use and give completed forms to your "
+"customers."
 msgstr ""
 
-msgid "You may not resell, share, give away or upload the template files, or claim them as your own design."
+#: patterns/page-terms.php:20
+msgid ""
+"You may not resell, share, give away or upload the template files, or claim "
+"them as your own design."
 msgstr ""
 
-msgid "[Placeholder — add any other licence terms, e.g. use by staff or multiple locations.]"
+#: patterns/page-terms.php:21
+msgid ""
+"[Placeholder — add any other licence terms, e.g. use by staff or multiple "
+"locations.]"
 msgstr ""
 
+#: patterns/page-terms.php:23
 msgid "Prices and payment"
 msgstr ""
 
-msgid "Prices are shown at checkout in [currency] and include or exclude taxes as shown. Payment is processed securely by [payment provider]."
+#: patterns/page-terms.php:24
+msgid ""
+"Prices are shown at checkout in [currency] and include or exclude taxes as "
+"shown. Payment is processed securely by [payment provider]."
 msgstr ""
 
+#: patterns/page-terms.php:25
 msgid "What our tools do — and do not do"
 msgstr ""
 
-msgid "Our templates are organisation aids. They do not provide financial, legal, tax or food-safety advice, and we cannot promise any particular sales, prices or profit. You are responsible for checking the figures you enter and for following the rules that apply to your business."
+#: patterns/page-terms.php:26
+msgid ""
+"Our templates are organisation aids. They do not provide financial, legal, "
+"tax or food-safety advice, and we cannot promise any particular sales, "
+"prices or profit. You are responsible for checking the figures you enter and "
+"for following the rules that apply to your business."
 msgstr ""
 
+#: patterns/page-terms.php:27
 msgid "Liability"
 msgstr ""
 
-msgid "[Placeholder — limitation of liability wording appropriate for your country.]"
+#: patterns/page-terms.php:28
+msgid ""
+"[Placeholder — limitation of liability wording appropriate for your country.]"
 msgstr ""
 
+#: patterns/page-terms.php:29
 msgid "Governing law"
 msgstr ""
 
+#: patterns/page-terms.php:30
 msgid "[Placeholder — the country or state whose laws apply.]"
 msgstr ""
 
+#: patterns/page-terms.php:31
 msgid "Changes and contact"
 msgstr ""
 
-msgid "We may update these terms. The version shown when you placed your order applies to that order. Questions? Contact [support email]."
+#: patterns/page-terms.php:32
+msgid ""
+"We may update these terms. The version shown when you placed your order "
+"applies to that order. Questions? Contact [support email]."
 msgstr ""
-
-msgid "What it helps you do"
-msgstr ""
-
